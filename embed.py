@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+import time
 import torch as th
 import numpy as np
 import logging
@@ -23,7 +23,6 @@ import json
 import torch.multiprocessing as mp
 
 
-
 th.manual_seed(42)
 np.random.seed(42)
 
@@ -32,7 +31,7 @@ MANIFOLDS = {
     'Euclidean': EuclideanManifold,
     'Poincare': PoincareManifold,
     'Lorentz': LorentzManifold,
-    #'Halfspace': HalfspaceManifold,
+    # 'Halfspace': HalfspaceManifold,
     'NLorentz': NLorentzManifold,
     'LTiling_rsgd': LTilingRSGDManifold,
     'NLTiling_rsgd': NLTilingRSGDManifold,
@@ -45,14 +44,16 @@ MANIFOLDS = {
 # https://thisdataguy.com/2017/07/03/no-options-with-argparse-and-python/
 class Unsettable(argparse.Action):
     def __init__(self, option_strings, dest, nargs=None, **kwargs):
-        super(Unsettable, self).__init__(option_strings, dest, nargs='?', **kwargs)
+        super(Unsettable, self).__init__(
+            option_strings, dest, nargs='?', **kwargs)
 
     def __call__(self, parser, namespace, values, option_string=None):
         val = None if option_string.startswith('-no') else values
         setattr(namespace, self.dest, val)
 
 
-def main():    
+def main():
+    start_time = time.time()
     parser = argparse.ArgumentParser(description='Train Hyperbolic Embeddings')
     parser.add_argument('-dset', type=str, required=True,
                         help='Dataset identifier')
@@ -91,12 +92,14 @@ def main():
     parser.add_argument('-burnin_multiplier', default=0.01, type=float)
     parser.add_argument('-neg_multiplier', default=1.0, type=float)
     parser.add_argument('-quiet', action='store_true', default=True)
-    parser.add_argument('-lr_type', choices=['scale', 'constant'], default='constant')
+    parser.add_argument(
+        '-lr_type', choices=['scale', 'constant'], default='constant')
     parser.add_argument('-train_threads', type=int, default=1,
                         help='Number of threads to use in training')
-    parser.add_argument('-eval_embedding', default=False, help='path for the embedding to be evaluated')
+    parser.add_argument('-eval_embedding', default=False,
+                        help='path for the embedding to be evaluated')
     opt = parser.parse_args()
-    
+
     if 'LTiling' in opt.manifold:
         opt.nor = 'LTiling'
         opt.norevery = 20
@@ -111,16 +114,19 @@ def main():
     # setup debugging and logigng
     log_level = logging.DEBUG if opt.debug else logging.INFO
     log = logging.getLogger('Poincare')
-    logging.basicConfig(level=log_level, format='%(message)s', stream=sys.stdout)
+    logging.basicConfig(
+        level=log_level, format='%(message)s', stream=sys.stdout)
 
     # set default tensor type
-    th.set_default_tensor_type('torch.DoubleTensor')####FloatTensor DoubleTensor
+    # FloatTensor DoubleTensor
+    th.set_default_tensor_type('torch.DoubleTensor')
     # set device
     # device = th.device(f'cuda:{opt.gpu}' if opt.gpu >= 0 else 'cpu')
     device = th.device('cpu')
 
     # select manifold to optimize on
-    manifold = MANIFOLDS[opt.manifold](debug=opt.debug, max_norm=opt.maxnorm, com_n=opt.com_n)
+    manifold = MANIFOLDS[opt.manifold](
+        debug=opt.debug, max_norm=opt.maxnorm, com_n=opt.com_n)
     if 'Halfspace' not in opt.manifold:
         opt.dim = manifold.dim(opt.dim)
 
@@ -135,8 +141,9 @@ def main():
         dset = load_adjacency_matrix(opt.dset, 'hdf5')
         log.info('Setting up dataset...')
         data = AdjacencyDataset(dset, opt.negs, opt.batchsize, opt.ndproc,
-            opt.burnin > 0, sample_dampening=opt.dampening)
-        model = Embedding(data.N, opt.dim, manifold, sparse=opt.sparse, com_n=opt.com_n)
+                                opt.burnin > 0, sample_dampening=opt.dampening)
+        model = Embedding(data.N, opt.dim, manifold,
+                          sparse=opt.sparse, com_n=opt.com_n)
         objects = dset['objects']
     print('the total dimension', model.lt.weight.data.size(-1), 'com_n', opt.com_n)
     # set burnin parameters
@@ -169,30 +176,35 @@ def main():
             model = model.share_memory()
             if 'LTiling' in opt.manifold:
                 model.int_matrix.share_memory_()
-            kwargs = {'progress' : not opt.quiet}
+            kwargs = {'progress': not opt.quiet}
             for i in range(opt.train_threads):
                 args = (i, device, model, data, optimizer, opt, log)
-                threads.append(mp.Process(target=train.train, args=args, kwargs=kwargs))
+                threads.append(mp.Process(
+                    target=train.train, args=args, kwargs=kwargs))
                 threads[-1].start()
             [t.join() for t in threads]
         else:
-            print("########## device is here:  \n", device)
-            print("########## model is here :  \n", model)
-            print("########## data is here:  \n", data)
-            print("########## optimizer is here:  \n", optimizer)
-            print("########## log is here:  \n", log)
+            print("########## device is here:  ########## \n", device)
+            print("########## model is here :  ########## \n", model)
+            print("########## data is here:  ########## \n", data)
+            print("########## optimizer is here:  ########## \n", optimizer)
+            print("########## log is here:  ########## \n", log)
             progress_out = not opt.quiet
-            train.train(0, device, model, data, optimizer, opt, log, progress=progress_out)
+            train.train(0, device, model, data, optimizer,
+                        opt, log, progress=progress_out)
     else:
         model = th.load(opt.eval_embedding, map_location='cpu')['embeddings']
 
     if 'LTiling' in opt.manifold:
-        meanrank, maprank = eval_reconstruction(adj, model.lt.weight.data.clone(), manifold.distance, lt_int_matrix = model.int_matrix.data.clone(), workers = opt.ndproc)
-        sqnorms = manifold.pnorm(model.lt.weight.data.clone(), model.int_matrix.data.clone())
+        meanrank, maprank = eval_reconstruction(adj, model.lt.weight.data.clone(
+        ), manifold.distance, lt_int_matrix=model.int_matrix.data.clone(), workers=opt.ndproc)
+        sqnorms = manifold.pnorm(
+            model.lt.weight.data.clone(), model.int_matrix.data.clone())
     else:
-        meanrank, maprank = eval_reconstruction(adj, model.lt.weight.data.clone(), manifold.distance, workers = opt.ndproc)
+        meanrank, maprank = eval_reconstruction(
+            adj, model.lt.weight.data.clone(), manifold.distance, workers=opt.ndproc)
         sqnorms = manifold.pnorm(model.lt.weight.data.clone())
-    
+
     log.info(
         'json_stats final test: {'
         f'"sqnorm_min": {sqnorms.min().item()}, '
@@ -203,6 +215,7 @@ def main():
         '}'
     )
     print(model.lt.weight.data[0])
+    print("Training time is:", time.time() - start_time)
 
 
 if __name__ == '__main__':
