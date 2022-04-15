@@ -21,4 +21,4 @@ python3 embed.py \
        -batchsize 10 \
        -eval_each 20 \
        -sparse \
-       -train_threads 2
+       -train_threads 1
