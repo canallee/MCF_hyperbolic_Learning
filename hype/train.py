@@ -29,7 +29,7 @@ MANIFOLDS = {
     'Euclidean': EuclideanManifold,
     'Poincare': PoincareManifold,
     'Lorentz': LorentzManifold,
-    'Halfspace': HalfspaceManifold,
+    #'Halfspace': HalfspaceManifold,
     'NLorentz': NLorentzManifold,
     'LTiling_rsgd': LTilingRSGDManifold,
     'NLTiling_rsgd': NLTilingRSGDManifold,

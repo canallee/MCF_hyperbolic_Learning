@@ -32,7 +32,7 @@ MANIFOLDS = {
     'Euclidean': EuclideanManifold,
     'Poincare': PoincareManifold,
     'Lorentz': LorentzManifold,
-    'Halfspace': HalfspaceManifold,
+    #'Halfspace': HalfspaceManifold,
     'NLorentz': NLorentzManifold,
     'LTiling_rsgd': LTilingRSGDManifold,
     'NLTiling_rsgd': NLTilingRSGDManifold,
@@ -110,7 +110,7 @@ def main():
 
     # setup debugging and logigng
     log_level = logging.DEBUG if opt.debug else logging.INFO
-    log = logging.getLogger('tiling model')
+    log = logging.getLogger('Poincare')
     logging.basicConfig(level=log_level, format='%(message)s', stream=sys.stdout)
 
     # set default tensor type
@@ -176,7 +176,13 @@ def main():
                 threads[-1].start()
             [t.join() for t in threads]
         else:
-            train.train(device, model, data, optimizer, opt, log, progress=not opt.quiet)
+            print("########## device is here:  \n", device)
+            print("########## model is here :  \n", model)
+            print("########## data is here:  \n", data)
+            print("########## optimizer is here:  \n", optimizer)
+            print("########## log is here:  \n", log)
+            progress_out = not opt.quiet
+            train.train(0, device, model, data, optimizer, opt, log, progress=progress_out)
     else:
         model = th.load(opt.eval_embedding, map_location='cpu')['embeddings']
 
