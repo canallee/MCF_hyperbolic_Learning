@@ -147,7 +147,6 @@ def train(
 
     epoch_loss = torch.Tensor(len(loader))
     # Canal: counts seems to do nothing in RSGD ??
-    counts = torch.zeros(model.nobjects, 1).to(device)
     LOSS = np.zeros(opt.epochs)
 
     for epoch in range(opt.epoch_start, opt.epochs):
@@ -183,8 +182,9 @@ def train(
             preds = model(inputs)
             loss = model.loss(preds, targets, size_average=True)
             loss.backward()
-            optimizer.step(lr=lr, counts=counts)
+            optimizer.step(lr=lr)
             epoch_loss[i_batch] = loss.cpu().item()
+
         LOSS[epoch] = torch.mean(epoch_loss).item()
         log.info('json_stats: {'
                  f'"thread_id": {thread_id}, '
@@ -193,15 +193,15 @@ def train(
                  f'"loss": {LOSS[epoch]}, '
                  '}')
 
-        if opt.nor != 'none' and epoch > opt.stre and (epoch-opt.stre) % opt.norevery == 0:
-            if opt.nor == 'LTiling':
-                NMD, NMD_int_matrix = normalize_gmatrix(
-                    model.lt.weight.data.cpu().clone(), model.int_matrix.data.clone())
-                model.int_matrix.data.copy_(NMD_int_matrix)
-                model.lt.weight.data.copy_(NMD)
-            elif opt.nor == 'HTiling':
-                NMD = normalize_halfspace_matrix(model.lt.weight.data.clone())
-                model.lt.weight.data.copy_(NMD)
+        # if opt.nor != 'none' and epoch > opt.stre and (epoch-opt.stre) % opt.norevery == 0:
+        #     if opt.nor == 'LTiling':
+        #         NMD, NMD_int_matrix = normalize_gmatrix(
+        #             model.lt.weight.data.cpu().clone(), model.int_matrix.data.clone())
+        #         model.int_matrix.data.copy_(NMD_int_matrix)
+        #         model.lt.weight.data.copy_(NMD)
+        #     elif opt.nor == 'HTiling':
+        #         NMD = normalize_halfspace_matrix(model.lt.weight.data.clone())
+        #         model.lt.weight.data.copy_(NMD)
 
 #         if (epoch+1)%opt.eval_each==0 and thread_id==0:
 #             manifold = MANIFOLDS[opt.manifold](debug=opt.debug, max_norm=opt.maxnorm)

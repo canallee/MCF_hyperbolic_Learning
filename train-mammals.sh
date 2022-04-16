@@ -12,7 +12,7 @@ python3 embed.py \
        -dim 2 \
        -com_n 1 \
        -lr 0.3 \
-       -epochs 100 \
+       -epochs 1000 \
        -negs 50 \
        -burnin 20 \
        -ndproc 4 \
