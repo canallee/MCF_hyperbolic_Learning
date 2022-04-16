@@ -52,8 +52,7 @@ class Unsettable(argparse.Action):
         setattr(namespace, self.dest, val)
 
 
-def main():
-    start_time = time.time()
+def parse_arg():
     parser = argparse.ArgumentParser(description='Train Hyperbolic Embeddings')
     parser.add_argument('-dset', type=str, required=True,
                         help='Dataset identifier')
@@ -99,7 +98,12 @@ def main():
     parser.add_argument('-eval_embedding', default=False,
                         help='path for the embedding to be evaluated')
     opt = parser.parse_args()
+    return opt
 
+
+def main():
+    start_time = time.time()
+    opt = parse_arg()
     if 'LTiling' in opt.manifold:
         opt.nor = 'LTiling'
         opt.norevery = 20
@@ -123,7 +127,7 @@ def main():
     device = torch.device('cpu')
     torch.set_default_tensor_type('torch.DoubleTensor')
     # device = torch.device('cuda')
-    # torch.set_default_tensor_type('torch.cuda.FloatTensor')
+    # torch.set_default_tensor_type('torch.cuda.DoubleTensor')
 
     # select manifold to optimize on
     manifold = MANIFOLDS[opt.manifold](
@@ -203,15 +207,6 @@ def main():
                 threads[-1].start()
             [t.join() for t in threads]
         else:
-
-            print("opt parameter value:", opt.quiet)
-            # return
-
-            # print("########## device is here:  ########## \n", device)
-            # print("########## model is here :  ########## \n", model)
-            # print("########## data is here:  ########## \n", data)
-            # print("########## optimizer is here:  ########## \n", optimizer)
-            # print("########## log is here:  ########## \n", log)
             progress_out = not opt.quiet
             train.train(0, device, model, data, optimizer,
                         opt, log, progress=progress_out)
