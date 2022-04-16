@@ -2,3 +2,5 @@ __pycache__/*
 .ipynb_checkpoints/*
 hype/__pycache__/*
 build/*
+*.so
+*.pyx
