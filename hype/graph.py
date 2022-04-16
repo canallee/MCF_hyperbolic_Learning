@@ -30,10 +30,11 @@ def load_adjacency_matrix(path, format='hdf5', symmetrize=False):
                 'objects': hf['objects'].value
             }
     elif format == 'csv':
-        df = pandas.read_csv(path, usecols=['id1', 'id2', 'weight'], engine='c')
+        df = pandas.read_csv(
+            path, usecols=['id1', 'id2', 'weight'], engine='c')
 
         if symmetrize:
-            rev = df.copy().rename(columns={'id1' : 'id2', 'id2' : 'id1'})
+            rev = df.copy().rename(columns={'id1': 'id2', 'id2': 'id1'})
             df = pandas.concat([df, rev])
 
         idmap = {}
@@ -57,8 +58,8 @@ def load_adjacency_matrix(path, format='hdf5', symmetrize=False):
         neighbors = groups['id2'].values
         weights = groups['weight'].values
         return {
-            'ids' : ids.astype('int'),
-            'offsets' : offsets.astype('int'),
+            'ids': ids.astype('int'),
+            'offsets': offsets.astype('int'),
             'neighbors': neighbors.astype('int'),
             'weights': weights.astype('float'),
             'objects': np.array(idlist)
@@ -71,7 +72,7 @@ def load_edge_list(path, symmetrize=False):
     df = pandas.read_csv(path, usecols=['id1', 'id2', 'weight'], engine='c')
     df.dropna(inplace=True)
     if symmetrize:
-        rev = df.copy().rename(columns={'id1' : 'id2', 'id2' : 'id1'})
+        rev = df.copy().rename(columns={'id1': 'id2', 'id2': 'id1'})
         df = pandas.concat([df, rev])
     idx, objects = pandas.factorize(df[['id1', 'id2']].values.reshape(-1))
     idx = idx.reshape(-1, 2).astype('int')
@@ -86,7 +87,8 @@ class Embedding(nn.Module):
         self.nobjects = size
         self.manifold = manifold
         self.lt = nn.Embedding(size, com_n*dim, sparse=sparse)
-        ############ add this line to store integer matrix
+        print(">>>>>> The size of embedding:", self.lt)
+        # add this line to store integer matrix
         if 'LTiling' in str(manifold):
             if 'N' in str(manifold):
                 self.int_matrix = th.Tensor(size, dim//3, 3, 3)
@@ -193,7 +195,8 @@ def eval_reconstruction_slow(adj, lt, lt_int_matrix, distfn):
     for s, s_types in adj.items():
         s_e = lt[s].expand_as(lt)
         s_e_int_matrix = lt_int_matrix[s].expand_as(lt_int_matrix)
-        _dists = distfn(s_e, s_e_int_matrix, lt, lt_int_matrix).data.cpu().numpy().flatten()
+        _dists = distfn(s_e, s_e_int_matrix, lt,
+                        lt_int_matrix).data.cpu().numpy().flatten()
         _dists[s] = 1e+12
         _labels = np.zeros(lt.size(0))
         _dists_masked = _dists.copy()
@@ -220,12 +223,14 @@ def reconstruction_worker(adj, lt, distfn, objects, progress=False, lt_int_matri
         labels.fill(0)
         neighbors = np.array(list(adj[object]))
         if 'LTiling' in str(distfn):
-            dists = distfn(lt[None, object], lt_int_matrix[None, object], lt, lt_int_matrix)
+            dists = distfn(lt[None, object],
+                           lt_int_matrix[None, object], lt, lt_int_matrix)
         else:
             dists = distfn(lt[None, object], lt)
         dists[object] = 1e12
         sorted_dists, sorted_idx = dists.sort()
-        ranks, = np.where(np.in1d(sorted_idx.detach().cpu().numpy(), neighbors))
+        ranks, = np.where(
+            np.in1d(sorted_idx.detach().cpu().numpy(), neighbors))
         # The above gives us the position of the neighbors in sorted order.  We
         # want to count the number of non-neighbors that occur before each neighbor
         ranks += 1
@@ -252,7 +257,8 @@ def reconstruction_worker(adj, lt, distfn, objects, progress=False, lt_int_matri
         # print(lt[object])
         # print(lt[0])
         # assert 1 == 2
-        ap_scores += average_precision_score(labels, -dists.detach().cpu().numpy())
+        ap_scores += average_precision_score(labels, -
+                                             dists.detach().cpu().numpy())
         iters += 1
     return float(ranksum), nranks, ap_scores, iters
 
@@ -271,14 +277,16 @@ def eval_reconstruction(adj, lt, distfn, workers=1, progress=False, lt_int_matri
     if workers > 1:
         with ThreadPool(workers) as pool:
             if 'LTiling' in str(distfn):
-                f = partial(reconstruction_worker, adj, lt, distfn, lt_int_matrix=lt_int_matrix)
+                f = partial(reconstruction_worker, adj, lt,
+                            distfn, lt_int_matrix=lt_int_matrix)
             else:
                 f = partial(reconstruction_worker, adj, lt, distfn)
             results = pool.map(f, np.array_split(objects, workers))
             results = np.array(results).sum(axis=0).astype(float)
     else:
         if 'LTiling' in str(distfn):
-            results = reconstruction_worker(adj, lt, distfn, objects, progress, lt_int_matrix=lt_int_matrix)
+            results = reconstruction_worker(
+                adj, lt, distfn, objects, progress, lt_int_matrix=lt_int_matrix)
         else:
             results = reconstruction_worker(adj, lt, distfn, objects, progress)
     return float(results[0]) / results[1], float(results[2]) / results[3]

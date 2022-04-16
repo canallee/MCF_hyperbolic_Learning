@@ -146,7 +146,8 @@ def main():
         model = Embedding(data.N, opt.dim, manifold,
                           sparse=opt.sparse, com_n=opt.com_n)
         objects = dset['objects']
-    print('the total dimension', model.lt.weight.data.size(-1), 'com_n', opt.com_n)
+    print('>>>>>> the total dimension',
+          model.lt.weight.data.size(-1), 'com_n', opt.com_n)
     # set burnin parameters
     data.neg_multiplier = opt.neg_multiplier
     train._lr_multiplier = opt.burnin_multiplier
@@ -190,18 +191,19 @@ def main():
             print("opt parameter value:", opt.quiet)
             # return
 
-            print("########## device is here:  ########## \n", device)
-            print("########## model is here :  ########## \n", model)
-            print("########## data is here:  ########## \n", data)
-            print("########## optimizer is here:  ########## \n", optimizer)
-            print("########## log is here:  ########## \n", log)
+            # print("########## device is here:  ########## \n", device)
+            # print("########## model is here :  ########## \n", model)
+            # print("########## data is here:  ########## \n", data)
+            # print("########## optimizer is here:  ########## \n", optimizer)
+            # print("########## log is here:  ########## \n", log)
             progress_out = not opt.quiet
-
             train.train(0, device, model, data, optimizer,
                         opt, log, progress=progress_out)
     else:
         model = torch.load(opt.eval_embedding, map_location='cpu')[
             'embeddings']
+
+    print("Training time is:", time.time() - start_time)
 
     if 'LTiling' in opt.manifold:
         meanrank, maprank = eval_reconstruction(adj, model.lt.weight.data.clone(
@@ -223,7 +225,6 @@ def main():
         '}'
     )
     print(model.lt.weight.data[0])
-    print("Training time is:", time.time() - start_time)
 
 
 if __name__ == '__main__':

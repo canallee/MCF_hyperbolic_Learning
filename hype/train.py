@@ -146,12 +146,14 @@ def train(
         loader = data
 
     epoch_loss = torch.Tensor(len(loader))
+    # Canal: counts seems to do nothing in RSGD ??
     counts = torch.zeros(model.nobjects, 1).to(device)
-
     LOSS = np.zeros(opt.epochs)
-    for epoch in range(opt.epoch_start, opt.epochs):
-        print(torch.abs(model.lt.weight.data).max().item())
 
+    for epoch in range(opt.epoch_start, opt.epochs):
+        largest_weight_emb = round(
+            torch.abs(model.lt.weight.data).max().item(), ndigits=6)
+        print(largest_weight_emb, "is the largest absolute weight in the embedding")
         epoch_loss.fill_(0)
         data.burnin = False
         t_start = timeit.default_timer()
@@ -161,6 +163,7 @@ def train(
             lr = opt.lr * _lr_multiplier
 
         loader_iter = tqdm(loader) if progress else loader
+
         for i_batch, (inputs, targets) in enumerate(loader_iter):
             elapsed = timeit.default_timer() - t_start
 
@@ -168,6 +171,7 @@ def train(
             targets = targets.to(device)
 
             # count occurrences of objects in batch
+            # Canal: this codebase does not support asgd
             if hasattr(opt, 'asgd') and opt.asgd:
                 counts = torch.bincount(
                     inputs.view(-1), minlength=model.nobjects)
@@ -188,6 +192,7 @@ def train(
                  f'"elapsed": {elapsed}, '
                  f'"loss": {LOSS[epoch]}, '
                  '}')
+
         if opt.nor != 'none' and epoch > opt.stre and (epoch-opt.stre) % opt.norevery == 0:
             if opt.nor == 'LTiling':
                 NMD, NMD_int_matrix = normalize_gmatrix(
