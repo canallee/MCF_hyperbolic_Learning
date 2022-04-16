@@ -165,11 +165,12 @@ def train(
         loader_iter = tqdm(loader) if progress else loader
 
         for i_batch, (inputs, targets) in enumerate(loader_iter):
+            # if epoch == 0:
+            #     print((inputs, targets))
+            #     return
             elapsed = timeit.default_timer() - t_start
-
             inputs = inputs.to(device)
             targets = targets.to(device)
-
             # count occurrences of objects in batch
             # Canal: this codebase does not support asgd
             if hasattr(opt, 'asgd') and opt.asgd:
@@ -180,7 +181,6 @@ def train(
 
             optimizer.zero_grad()
             preds = model(inputs)
-
             loss = model.loss(preds, targets, size_average=True)
             loss.backward()
             optimizer.step(lr=lr, counts=counts)
