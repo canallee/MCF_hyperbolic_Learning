@@ -160,6 +160,22 @@ def main():
     # setup optimizer
     optimizer = RiemannianSGD(model.optim_params(manifold), lr=opt.lr)
     opt.epoch_start = 0
+    #########################################################################
+    print("#########################################################")
+    print("print(opt.maxnorm, opt.debug, opt.epochs)")
+    print(opt.maxnorm, opt.debug, opt.epochs)
+    print("print(opt.manifold, opt.dim, opt.com_n )")
+    print(opt.manifold, opt.dim, opt.com_n)
+    print("print(opt.negs, opt.batchsize, opt.eval_each )")
+    print(opt.negs, opt.batchsize, opt.eval_each)
+    print("print(opt.sparse, opt.ndproc, opt.burnin )")
+    print(opt.sparse, opt.ndproc, opt.burnin)
+    print("print(opt.dampening, opt.neg_multiplier, opt.burnin_multiplier, opt.lr )")
+    print(opt.dampening, opt.neg_multiplier, opt.burnin_multiplier, opt.lr)
+    print("#########################################################")
+    # return
+    #########################################################################
+
     adj = {}
     for inputs, _ in data:
         for row in inputs:
