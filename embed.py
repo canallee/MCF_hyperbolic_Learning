@@ -195,8 +195,8 @@ def main():
             print("########## data is here:  ########## \n", data)
             print("########## optimizer is here:  ########## \n", optimizer)
             print("########## log is here:  ########## \n", log)
-            #progress_out = not opt.quiet
-            progress_out = True
+            progress_out = not opt.quiet
+
             train.train(0, device, model, data, optimizer,
                         opt, log, progress=progress_out)
     else:
