@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import time
-import torch as th
+import torch
 import numpy as np
 import logging
 import argparse
@@ -23,7 +23,7 @@ import json
 import torch.multiprocessing as mp
 
 
-th.manual_seed(42)
+torch.manual_seed(42)
 np.random.seed(42)
 
 
@@ -117,12 +117,13 @@ def main():
     logging.basicConfig(
         level=log_level, format='%(message)s', stream=sys.stdout)
 
+    # set device
     # set default tensor type
     # FloatTensor DoubleTensor
-    th.set_default_tensor_type('torch.DoubleTensor')
-    # set device
-    # device = th.device(f'cuda:{opt.gpu}' if opt.gpu >= 0 else 'cpu')
-    device = th.device('cpu')
+    device = torch.device('cpu')
+    torch.set_default_tensor_type('torch.DoubleTensor')
+    # device = torch.device('cuda')
+    # torch.set_default_tensor_type('torch.cuda.FloatTensor')
 
     # select manifold to optimize on
     manifold = MANIFOLDS[opt.manifold](
@@ -151,6 +152,7 @@ def main():
     train._lr_multiplier = opt.burnin_multiplier
     # Build config string for log
     log.info(f'json_conf: {json.dumps(vars(opt))}')
+    # if scale learning rate is used, scale lr with batchsize
     if opt.lr_type == 'scale':
         opt.lr = opt.lr * opt.batchsize
 
@@ -184,16 +186,22 @@ def main():
                 threads[-1].start()
             [t.join() for t in threads]
         else:
+
+            print("opt parameter value:", opt.quiet)
+            # return
+
             print("########## device is here:  ########## \n", device)
             print("########## model is here :  ########## \n", model)
             print("########## data is here:  ########## \n", data)
             print("########## optimizer is here:  ########## \n", optimizer)
             print("########## log is here:  ########## \n", log)
-            progress_out = not opt.quiet
+            #progress_out = not opt.quiet
+            progress_out = True
             train.train(0, device, model, data, optimizer,
                         opt, log, progress=progress_out)
     else:
-        model = th.load(opt.eval_embedding, map_location='cpu')['embeddings']
+        model = torch.load(opt.eval_embedding, map_location='cpu')[
+            'embeddings']
 
     if 'LTiling' in opt.manifold:
         meanrank, maprank = eval_reconstruction(adj, model.lt.weight.data.clone(

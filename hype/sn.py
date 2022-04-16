@@ -22,15 +22,16 @@ class Embedding(graph.Embedding):
 
     def _forward(self, e, int_matrix=None):
         o = e.narrow(1, 1, e.size(1) - 1)
-        s = e.narrow(1, 0, 1).expand_as(o)###source
+        s = e.narrow(1, 0, 1).expand_as(o)  # source
         if 'LTiling' in str(self.manifold):
             o_int_matrix = int_matrix.narrow(1, 1, e.size(1) - 1)
-            s_int_matrix = int_matrix.narrow(1, 0, 1).expand_as(o_int_matrix)###source
+            s_int_matrix = int_matrix.narrow(
+                1, 0, 1).expand_as(o_int_matrix)  # source
             dists = self.dist(s, s_int_matrix, o, o_int_matrix).squeeze(-1)
         else:
             dists = self.dist(s, o).squeeze(-1)
         return -dists
-    
+
     def loss(self, preds, targets, weight=None, size_average=True):
         return self.lossfn(preds, targets)
 
@@ -70,7 +71,7 @@ def initialize(manifold, opt, idx, objects, weights, sparse=True):
     conf = []
     mname = model_name % (opt.manifold, opt.dim, opt.com_n)
     data = BatchedDataset(idx, objects, weights, opt.negs, opt.batchsize,
-        opt.ndproc, opt.burnin > 0, opt.dampening)
+                          opt.ndproc, opt.burnin > 0, opt.dampening)
     model = Embedding(
         len(data.objects),
         opt.dim,
