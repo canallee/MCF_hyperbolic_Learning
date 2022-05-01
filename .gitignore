@@ -3,4 +3,3 @@ __pycache__/*
 hype/__pycache__/*
 build/*
 *.so
-*.pyx

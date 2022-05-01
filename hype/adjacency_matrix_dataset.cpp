@@ -4,14 +4,14 @@
 {
     "distutils": {
         "depends": [
-            "/home/relax/anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/core/include/numpy/arrayobject.h",
-            "/home/relax/anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/core/include/numpy/ufuncobject.h"
+            "/home/ty367/anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/core/include/numpy/arrayobject.h",
+            "/home/ty367/anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/core/include/numpy/ufuncobject.h"
         ],
         "extra_compile_args": [
             "-std=c++11"
         ],
         "include_dirs": [
-            "/home/relax/anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/core/include"
+            "/home/ty367/anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/core/include"
         ],
         "language": "c++",
         "name": "hype.adjacency_matrix_dataset",
@@ -1014,7 +1014,7 @@ typedef struct {
 #endif
 
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":697
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":689
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1023,7 +1023,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":698
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":690
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1032,7 +1032,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":699
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":691
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1041,7 +1041,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":700
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":692
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1050,7 +1050,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":704
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":696
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1059,7 +1059,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":705
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":697
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1068,7 +1068,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":706
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":698
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1077,7 +1077,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":707
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":699
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1086,7 +1086,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":711
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":703
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1095,7 +1095,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":712
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":704
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1104,7 +1104,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":721
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":713
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1113,7 +1113,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":722
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":714
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1122,7 +1122,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":723
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":715
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1131,7 +1131,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":725
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":717
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1140,7 +1140,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":726
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":718
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1149,7 +1149,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":727
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":719
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1158,7 +1158,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":729
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":721
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1167,7 +1167,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":730
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":722
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1176,7 +1176,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":732
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":724
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1185,7 +1185,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":733
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":725
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1194,7 +1194,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":734
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":726
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1234,7 +1234,7 @@ struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":736
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":728
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1243,7 +1243,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":737
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":729
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1252,7 +1252,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":738
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":730
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1261,7 +1261,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":740
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":732
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1270,7 +1270,7 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
 
-/* "hype/adjacency_matrix_dataset.pyx":29
+/* "hype/adjacency_matrix_dataset.pyx":24
  *     return seed[0] % RAND_MAX
  * 
  * cdef class AdjacencyDataset:             # <<<<<<<<<<<<<<
@@ -1385,7 +1385,7 @@ struct __pyx_memoryviewslice_obj {
 
 
 
-/* "hype/adjacency_matrix_dataset.pyx":29
+/* "hype/adjacency_matrix_dataset.pyx":24
  *     return seed[0] % RAND_MAX
  * 
  * cdef class AdjacencyDataset:             # <<<<<<<<<<<<<<
@@ -1804,15 +1804,6 @@ static void __Pyx_WriteUnraisable(const char *name, int clineno,
                                   int lineno, const char *filename,
                                   int full_traceback, int nogil);
 
-/* RaiseTooManyValuesToUnpack.proto */
-static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected);
-
-/* RaiseNeedMoreValuesToUnpack.proto */
-static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index);
-
-/* RaiseNoneIterError.proto */
-static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void);
-
 /* GetTopmostException.proto */
 #if CYTHON_USE_EXC_INFO_STACK
 static _PyErr_StackItem * __Pyx_PyErr_GetTopmostException(PyThreadState *tstate);
@@ -1898,6 +1889,15 @@ static CYTHON_INLINE PyObject* __Pyx_decode_c_string(
 
 /* GetAttr3.proto */
 static CYTHON_INLINE PyObject *__Pyx_GetAttr3(PyObject *, PyObject *, PyObject *);
+
+/* RaiseTooManyValuesToUnpack.proto */
+static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected);
+
+/* RaiseNeedMoreValuesToUnpack.proto */
+static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index);
+
+/* RaiseNoneIterError.proto */
+static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void);
 
 /* SwapException.proto */
 #if CYTHON_FAST_THREAD_STATE
@@ -2221,9 +2221,6 @@ static void __Pyx_CppExn2PyErr() {
     #endif
 #endif
 
-/* CIntToPy.proto */
-static CYTHON_INLINE PyObject* __Pyx_PyInt_From_enum__NPY_TYPES(enum NPY_TYPES value);
-
 /* MemviewSliceCopyTemplate.proto */
 static __Pyx_memviewslice
 __pyx_memoryview_copy_new_contig(const __Pyx_memviewslice *from_mvs,
@@ -2318,7 +2315,6 @@ static PyTypeObject *__pyx_ptype_5numpy_flatiter = 0;
 static PyTypeObject *__pyx_ptype_5numpy_broadcast = 0;
 static PyTypeObject *__pyx_ptype_5numpy_ndarray = 0;
 static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
-static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, char *, char *, int *); /*proto*/
 
 /* Module declarations from 'cython.view' */
 
@@ -2393,9 +2389,8 @@ int __pyx_module_is_main_hype__adjacency_matrix_dataset = 0;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_StopIteration;
 static PyObject *__pyx_builtin_TypeError;
-static PyObject *__pyx_builtin_RuntimeError;
-static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_ImportError;
+static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_MemoryError;
 static PyObject *__pyx_builtin_enumerate;
 static PyObject *__pyx_builtin_Ellipsis;
@@ -2495,7 +2490,6 @@ static const char __pyx_k_MemoryError[] = "MemoryError";
 static const char __pyx_k_PickleError[] = "PickleError";
 static const char __pyx_k_num_workers[] = "num_workers";
 static const char __pyx_k_permutation[] = "permutation";
-static const char __pyx_k_RuntimeError[] = "RuntimeError";
 static const char __pyx_k_pyx_checksum[] = "__pyx_checksum";
 static const char __pyx_k_stringsource[] = "stringsource";
 static const char __pyx_k_StopIteration[] = "StopIteration";
@@ -2522,17 +2516,14 @@ static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cyt
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
-static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Buffer_view_does_not_expose_stri[] = "Buffer view does not expose strides";
 static const char __pyx_k_Can_only_create_a_buffer_that_is[] = "Can only create a buffer that is contiguous in memory.";
 static const char __pyx_k_Cannot_assign_to_read_only_memor[] = "Cannot assign to read-only memoryview";
 static const char __pyx_k_Cannot_create_writable_memory_vi[] = "Cannot create writable memory view from read-only memoryview";
 static const char __pyx_k_Empty_shape_tuple_for_cython_arr[] = "Empty shape tuple for cython.array";
-static const char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";
 static const char __pyx_k_Incompatible_checksums_s_vs_0xb0[] = "Incompatible checksums (%s vs 0xb068931 = (name))";
 static const char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensions not supported";
 static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, expected 'c' or 'fortran', got %s";
-static const char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis %d)";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_Warning_not_enough_threads_to_ke[] = "Warning: not enough threads to keep up with training loop!";
@@ -2540,7 +2531,6 @@ static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing ex
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
 static const char __pyx_k_unable_to_allocate_shape_and_str[] = "unable to allocate shape and strides.";
-static const char __pyx_k_Format_string_allocated_too_shor_2[] = "Format string allocated too short.";
 static PyObject *__pyx_n_s_ASCII;
 static PyObject *__pyx_n_s_AdjacencyDataset;
 static PyObject *__pyx_kp_s_Buffer_view_does_not_expose_stri;
@@ -2550,8 +2540,6 @@ static PyObject *__pyx_kp_s_Cannot_create_writable_memory_vi;
 static PyObject *__pyx_kp_s_Cannot_index_with_type_s;
 static PyObject *__pyx_n_s_Ellipsis;
 static PyObject *__pyx_kp_s_Empty_shape_tuple_for_cython_arr;
-static PyObject *__pyx_kp_u_Format_string_allocated_too_shor;
-static PyObject *__pyx_kp_u_Format_string_allocated_too_shor_2;
 static PyObject *__pyx_n_s_ImportError;
 static PyObject *__pyx_kp_s_Incompatible_checksums_s_vs_0xb0;
 static PyObject *__pyx_n_s_IndexError;
@@ -2562,12 +2550,10 @@ static PyObject *__pyx_n_s_LongTensor;
 static PyObject *__pyx_n_s_MemoryError;
 static PyObject *__pyx_kp_s_MemoryView_of_r_at_0x_x;
 static PyObject *__pyx_kp_s_MemoryView_of_r_object;
-static PyObject *__pyx_kp_u_Non_native_byte_order_not_suppor;
 static PyObject *__pyx_n_b_O;
 static PyObject *__pyx_kp_s_Out_of_bounds_on_buffer_access_a;
 static PyObject *__pyx_n_s_PickleError;
 static PyObject *__pyx_n_s_Queue;
-static PyObject *__pyx_n_s_RuntimeError;
 static PyObject *__pyx_n_s_StopIteration;
 static PyObject *__pyx_n_s_Thread;
 static PyObject *__pyx_n_s_TypeError;
@@ -2677,7 +2663,6 @@ static PyObject *__pyx_n_s_threading;
 static PyObject *__pyx_n_s_torch;
 static PyObject *__pyx_kp_s_unable_to_allocate_array_data;
 static PyObject *__pyx_kp_s_unable_to_allocate_shape_and_str;
-static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
 static PyObject *__pyx_n_s_unpack;
 static PyObject *__pyx_n_s_update;
 static PyObject *__pyx_n_s_weights;
@@ -2778,7 +2763,7 @@ static PyObject *__pyx_tuple__6;
 static PyObject *__pyx_tuple__7;
 static PyObject *__pyx_tuple__8;
 static PyObject *__pyx_tuple__9;
-static PyObject *__pyx_slice__22;
+static PyObject *__pyx_slice__19;
 static PyObject *__pyx_tuple__10;
 static PyObject *__pyx_tuple__11;
 static PyObject *__pyx_tuple__12;
@@ -2788,22 +2773,19 @@ static PyObject *__pyx_tuple__15;
 static PyObject *__pyx_tuple__16;
 static PyObject *__pyx_tuple__17;
 static PyObject *__pyx_tuple__18;
-static PyObject *__pyx_tuple__19;
 static PyObject *__pyx_tuple__20;
 static PyObject *__pyx_tuple__21;
+static PyObject *__pyx_tuple__22;
 static PyObject *__pyx_tuple__23;
 static PyObject *__pyx_tuple__24;
 static PyObject *__pyx_tuple__25;
 static PyObject *__pyx_tuple__26;
 static PyObject *__pyx_tuple__27;
 static PyObject *__pyx_tuple__28;
-static PyObject *__pyx_tuple__29;
-static PyObject *__pyx_tuple__30;
-static PyObject *__pyx_tuple__31;
-static PyObject *__pyx_codeobj__32;
+static PyObject *__pyx_codeobj__29;
 /* Late includes */
 
-/* "hype/adjacency_matrix_dataset.pyx":25
+/* "hype/adjacency_matrix_dataset.pyx":20
  * 
  * # Thread safe random number generation.  libcpp doesn't expose rand_r...
  * cdef unsigned long rand_r(unsigned long* seed) nogil:             # <<<<<<<<<<<<<<
@@ -2814,7 +2796,7 @@ static PyObject *__pyx_codeobj__32;
 static unsigned long __pyx_f_4hype_24adjacency_matrix_dataset_rand_r(unsigned long *__pyx_v_seed) {
   unsigned long __pyx_r;
 
-  /* "hype/adjacency_matrix_dataset.pyx":26
+  /* "hype/adjacency_matrix_dataset.pyx":21
  * # Thread safe random number generation.  libcpp doesn't expose rand_r...
  * cdef unsigned long rand_r(unsigned long* seed) nogil:
  *     seed[0] = (seed[0] * 1103515245) % <unsigned long>pow(2, 32) + 12345             # <<<<<<<<<<<<<<
@@ -2823,7 +2805,7 @@ static unsigned long __pyx_f_4hype_24adjacency_matrix_dataset_rand_r(unsigned lo
  */
   (__pyx_v_seed[0]) = ((((__pyx_v_seed[0]) * 0x41C64E6D) % ((unsigned long)pow(2.0, 32.0))) + 0x3039);
 
-  /* "hype/adjacency_matrix_dataset.pyx":27
+  /* "hype/adjacency_matrix_dataset.pyx":22
  * cdef unsigned long rand_r(unsigned long* seed) nogil:
  *     seed[0] = (seed[0] * 1103515245) % <unsigned long>pow(2, 32) + 12345
  *     return seed[0] % RAND_MAX             # <<<<<<<<<<<<<<
@@ -2833,7 +2815,7 @@ static unsigned long __pyx_f_4hype_24adjacency_matrix_dataset_rand_r(unsigned lo
   __pyx_r = ((__pyx_v_seed[0]) % RAND_MAX);
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":25
+  /* "hype/adjacency_matrix_dataset.pyx":20
  * 
  * # Thread safe random number generation.  libcpp doesn't expose rand_r...
  * cdef unsigned long rand_r(unsigned long* seed) nogil:             # <<<<<<<<<<<<<<
@@ -2846,7 +2828,7 @@ static unsigned long __pyx_f_4hype_24adjacency_matrix_dataset_rand_r(unsigned lo
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":43
+/* "hype/adjacency_matrix_dataset.pyx":38
  *     cdef long [:] A, ids, neighbors, offsets, perm
  * 
  *     def __cinit__(self, adj, nnegs, batch_size, num_workers, burnin = False,             # <<<<<<<<<<<<<<
@@ -2902,19 +2884,19 @@ static int __pyx_pw_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_1__cinit
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_nnegs)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 4, 6, 1); __PYX_ERR(0, 43, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 4, 6, 1); __PYX_ERR(0, 38, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_batch_size)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 4, 6, 2); __PYX_ERR(0, 43, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 4, 6, 2); __PYX_ERR(0, 38, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_num_workers)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 4, 6, 3); __PYX_ERR(0, 43, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 4, 6, 3); __PYX_ERR(0, 38, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  4:
@@ -2930,7 +2912,7 @@ static int __pyx_pw_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_1__cinit
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__cinit__") < 0)) __PYX_ERR(0, 43, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__cinit__") < 0)) __PYX_ERR(0, 38, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -2955,7 +2937,7 @@ static int __pyx_pw_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_1__cinit
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 4, 6, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 43, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 4, 6, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 38, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("hype.adjacency_matrix_dataset.AdjacencyDataset.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -2985,50 +2967,50 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset___cinit_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":45
+  /* "hype/adjacency_matrix_dataset.pyx":40
  *     def __cinit__(self, adj, nnegs, batch_size, num_workers, burnin = False,
  *             sample_dampening=0.75):
  *         self.burnin = burnin             # <<<<<<<<<<<<<<
  *         self.num_workers = num_workers
  *         self.batch_size = batch_size
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_burnin); if (unlikely((__pyx_t_1 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 45, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_burnin); if (unlikely((__pyx_t_1 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 40, __pyx_L1_error)
   __pyx_v_self->burnin = __pyx_t_1;
 
-  /* "hype/adjacency_matrix_dataset.pyx":46
+  /* "hype/adjacency_matrix_dataset.pyx":41
  *             sample_dampening=0.75):
  *         self.burnin = burnin
  *         self.num_workers = num_workers             # <<<<<<<<<<<<<<
  *         self.batch_size = batch_size
  *         self.max_tries = 10 * nnegs
  */
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_v_num_workers); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 46, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_v_num_workers); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 41, __pyx_L1_error)
   __pyx_v_self->num_workers = __pyx_t_2;
 
-  /* "hype/adjacency_matrix_dataset.pyx":47
+  /* "hype/adjacency_matrix_dataset.pyx":42
  *         self.burnin = burnin
  *         self.num_workers = num_workers
  *         self.batch_size = batch_size             # <<<<<<<<<<<<<<
  *         self.max_tries = 10 * nnegs
  *         self.neg_multiplier = 1
  */
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_v_batch_size); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 47, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_v_batch_size); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 42, __pyx_L1_error)
   __pyx_v_self->batch_size = __pyx_t_2;
 
-  /* "hype/adjacency_matrix_dataset.pyx":48
+  /* "hype/adjacency_matrix_dataset.pyx":43
  *         self.num_workers = num_workers
  *         self.batch_size = batch_size
  *         self.max_tries = 10 * nnegs             # <<<<<<<<<<<<<<
  *         self.neg_multiplier = 1
  *         self.queue = queue.Queue(maxsize=num_workers)
  */
-  __pyx_t_3 = PyNumber_Multiply(__pyx_int_10, __pyx_v_nnegs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 48, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Multiply(__pyx_int_10, __pyx_v_nnegs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 43, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_3); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 48, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_3); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 43, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_self->max_tries = __pyx_t_2;
 
-  /* "hype/adjacency_matrix_dataset.pyx":49
+  /* "hype/adjacency_matrix_dataset.pyx":44
  *         self.batch_size = batch_size
  *         self.max_tries = 10 * nnegs
  *         self.neg_multiplier = 1             # <<<<<<<<<<<<<<
@@ -3037,22 +3019,22 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset___cinit_
  */
   __pyx_v_self->neg_multiplier = 1.0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":50
+  /* "hype/adjacency_matrix_dataset.pyx":45
  *         self.max_tries = 10 * nnegs
  *         self.neg_multiplier = 1
  *         self.queue = queue.Queue(maxsize=num_workers)             # <<<<<<<<<<<<<<
  *         self.nnegs = nnegs
  *         self._sample_dampening = sample_dampening
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_queue); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 50, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_queue); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 45, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Queue); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 50, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Queue); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 45, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 50, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 45, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_maxsize, __pyx_v_num_workers) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 50, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_maxsize, __pyx_v_num_workers) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 45, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -3062,107 +3044,107 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset___cinit_
   __pyx_v_self->queue = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":51
+  /* "hype/adjacency_matrix_dataset.pyx":46
  *         self.neg_multiplier = 1
  *         self.queue = queue.Queue(maxsize=num_workers)
  *         self.nnegs = nnegs             # <<<<<<<<<<<<<<
  *         self._sample_dampening = sample_dampening
  * 
  */
-  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_v_nnegs); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 51, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_v_nnegs); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 46, __pyx_L1_error)
   __pyx_v_self->nnegs = __pyx_t_2;
 
-  /* "hype/adjacency_matrix_dataset.pyx":52
+  /* "hype/adjacency_matrix_dataset.pyx":47
  *         self.queue = queue.Queue(maxsize=num_workers)
  *         self.nnegs = nnegs
  *         self._sample_dampening = sample_dampening             # <<<<<<<<<<<<<<
  * 
  *         self.ids = adj['ids']
  */
-  __pyx_t_6 = __pyx_PyFloat_AsDouble(__pyx_v_sample_dampening); if (unlikely((__pyx_t_6 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 52, __pyx_L1_error)
+  __pyx_t_6 = __pyx_PyFloat_AsDouble(__pyx_v_sample_dampening); if (unlikely((__pyx_t_6 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 47, __pyx_L1_error)
   __pyx_v_self->_sample_dampening = __pyx_t_6;
 
-  /* "hype/adjacency_matrix_dataset.pyx":54
+  /* "hype/adjacency_matrix_dataset.pyx":49
  *         self._sample_dampening = sample_dampening
  * 
  *         self.ids = adj['ids']             # <<<<<<<<<<<<<<
  *         self.neighbors = adj['neighbors']
  *         self.offsets = adj['offsets']
  */
-  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_ids); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 54, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_ids); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 49, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 54, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 49, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->ids, 0);
   __pyx_v_self->ids = __pyx_t_7;
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "hype/adjacency_matrix_dataset.pyx":55
+  /* "hype/adjacency_matrix_dataset.pyx":50
  * 
  *         self.ids = adj['ids']
  *         self.neighbors = adj['neighbors']             # <<<<<<<<<<<<<<
  *         self.offsets = adj['offsets']
  *         self.weights = adj['weights']
  */
-  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_neighbors); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 55, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_neighbors); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 50, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 55, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 50, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->neighbors, 0);
   __pyx_v_self->neighbors = __pyx_t_7;
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "hype/adjacency_matrix_dataset.pyx":56
+  /* "hype/adjacency_matrix_dataset.pyx":51
  *         self.ids = adj['ids']
  *         self.neighbors = adj['neighbors']
  *         self.offsets = adj['offsets']             # <<<<<<<<<<<<<<
  *         self.weights = adj['weights']
  *         self.objects = adj['objects']
  */
-  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_offsets); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 56, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_offsets); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 51, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 56, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 51, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->offsets, 0);
   __pyx_v_self->offsets = __pyx_t_7;
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "hype/adjacency_matrix_dataset.pyx":57
+  /* "hype/adjacency_matrix_dataset.pyx":52
  *         self.neighbors = adj['neighbors']
  *         self.offsets = adj['offsets']
  *         self.weights = adj['weights']             # <<<<<<<<<<<<<<
  *         self.objects = adj['objects']
  *         self.N = len(self.objects)
  */
-  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_weights); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 57, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_weights); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 52, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 57, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 52, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->weights, 0);
   __pyx_v_self->weights = __pyx_t_8;
   __pyx_t_8.memview = NULL;
   __pyx_t_8.data = NULL;
 
-  /* "hype/adjacency_matrix_dataset.pyx":58
+  /* "hype/adjacency_matrix_dataset.pyx":53
  *         self.offsets = adj['offsets']
  *         self.weights = adj['weights']
  *         self.objects = adj['objects']             # <<<<<<<<<<<<<<
  *         self.N = len(self.objects)
  *         self._setup_alias_tables()
  */
-  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_objects); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 58, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_adj, __pyx_n_s_objects); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 53, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 58, __pyx_L1_error)
+  if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 53, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_5);
   __Pyx_GOTREF(__pyx_v_self->objects);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->objects));
   __pyx_v_self->objects = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":59
+  /* "hype/adjacency_matrix_dataset.pyx":54
  *         self.weights = adj['weights']
  *         self.objects = adj['objects']
  *         self.N = len(self.objects)             # <<<<<<<<<<<<<<
@@ -3171,22 +3153,22 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset___cinit_
  */
   __pyx_t_5 = ((PyObject *)__pyx_v_self->objects);
   __Pyx_INCREF(__pyx_t_5);
-  __pyx_t_9 = PyObject_Length(__pyx_t_5); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 59, __pyx_L1_error)
+  __pyx_t_9 = PyObject_Length(__pyx_t_5); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 54, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_v_self->N = __pyx_t_9;
 
-  /* "hype/adjacency_matrix_dataset.pyx":60
+  /* "hype/adjacency_matrix_dataset.pyx":55
  *         self.objects = adj['objects']
  *         self.N = len(self.objects)
  *         self._setup_alias_tables()             # <<<<<<<<<<<<<<
  * 
  *     cdef _setup_alias_tables(self):
  */
-  __pyx_t_5 = ((struct __pyx_vtabstruct_4hype_24adjacency_matrix_dataset_AdjacencyDataset *)__pyx_v_self->__pyx_vtab)->_setup_alias_tables(__pyx_v_self); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 60, __pyx_L1_error)
+  __pyx_t_5 = ((struct __pyx_vtabstruct_4hype_24adjacency_matrix_dataset_AdjacencyDataset *)__pyx_v_self->__pyx_vtab)->_setup_alias_tables(__pyx_v_self); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 55, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":43
+  /* "hype/adjacency_matrix_dataset.pyx":38
  *     cdef long [:] A, ids, neighbors, offsets, perm
  * 
  *     def __cinit__(self, adj, nnegs, batch_size, num_workers, burnin = False,             # <<<<<<<<<<<<<<
@@ -3210,7 +3192,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset___cinit_
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":62
+/* "hype/adjacency_matrix_dataset.pyx":57
  *         self._setup_alias_tables()
  * 
  *     cdef _setup_alias_tables(self):             # <<<<<<<<<<<<<<
@@ -3265,78 +3247,78 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
   __pyx_pybuffernd_S.data = NULL;
   __pyx_pybuffernd_S.rcbuffer = &__pyx_pybuffer_S;
 
-  /* "hype/adjacency_matrix_dataset.pyx":72
+  /* "hype/adjacency_matrix_dataset.pyx":67
  *         cdef npc.ndarray[npc.double_t, ndim=1] S
  * 
  *         self.counts = np.bincount(self.neighbors, weights=self.weights, minlength=self.N)             # <<<<<<<<<<<<<<
  *         self.counts = self.counts ** self._sample_dampening
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_bincount); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_bincount); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 72, __pyx_L1_error)}
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->neighbors, 1, (PyObject *(*)(char *)) __pyx_memview_get_long, (int (*)(char *, PyObject *)) __pyx_memview_set_long, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 67, __pyx_L1_error)}
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->neighbors, 1, (PyObject *(*)(char *)) __pyx_memview_get_long, (int (*)(char *, PyObject *)) __pyx_memview_set_long, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (unlikely(!__pyx_v_self->weights.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 72, __pyx_L1_error)}
-  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->weights, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 72, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->weights.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 67, __pyx_L1_error)}
+  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->weights, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_weights, __pyx_t_4) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_weights, __pyx_t_4) < 0) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_self->N); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_self->N); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_minlength, __pyx_t_4) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_minlength, __pyx_t_4) < 0) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (!(likely(((__pyx_t_4) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 72, __pyx_L1_error)
+  if (!(likely(((__pyx_t_4) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_4);
   __Pyx_GOTREF(__pyx_v_self->counts);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->counts));
   __pyx_v_self->counts = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":73
+  /* "hype/adjacency_matrix_dataset.pyx":68
  * 
  *         self.counts = np.bincount(self.neighbors, weights=self.weights, minlength=self.N)
  *         self.counts = self.counts ** self._sample_dampening             # <<<<<<<<<<<<<<
  * 
  *         S = (self.counts / np.sum(self.counts)) * self.counts.shape[0]
  */
-  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_self->_sample_dampening); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_self->_sample_dampening); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_1 = PyNumber_Power(((PyObject *)__pyx_v_self->counts), __pyx_t_4, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Power(((PyObject *)__pyx_v_self->counts), __pyx_t_4, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 73, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v_self->counts);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->counts));
   __pyx_v_self->counts = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":75
+  /* "hype/adjacency_matrix_dataset.pyx":70
  *         self.counts = self.counts ** self._sample_dampening
  * 
  *         S = (self.counts / np.sum(self.counts)) * self.counts.shape[0]             # <<<<<<<<<<<<<<
  *         A = np.arange(0, self.counts.shape[0], dtype=np.long)
  *         Tl = set(list((S < 1).nonzero()[0]))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 75, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sum); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 75, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sum); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = NULL;
@@ -3351,19 +3333,19 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
   }
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_self->counts)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_self->counts));
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 75, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyNumber_Divide(((PyObject *)__pyx_v_self->counts), __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 75, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyNumber_Divide(((PyObject *)__pyx_v_self->counts), __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->counts->dimensions[0])); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 75, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->counts->dimensions[0])); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_4 = PyNumber_Multiply(__pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 75, __pyx_L1_error)
+  __pyx_t_4 = PyNumber_Multiply(__pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (!(likely(((__pyx_t_4) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 75, __pyx_L1_error)
+  if (!(likely(((__pyx_t_4) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 70, __pyx_L1_error)
   __pyx_t_5 = ((PyArrayObject *)__pyx_t_4);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -3380,27 +3362,27 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
       __pyx_t_7 = __pyx_t_8 = __pyx_t_9 = 0;
     }
     __pyx_pybuffernd_S.diminfo[0].strides = __pyx_pybuffernd_S.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_S.diminfo[0].shape = __pyx_pybuffernd_S.rcbuffer->pybuffer.shape[0];
-    if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 75, __pyx_L1_error)
+    if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 70, __pyx_L1_error)
   }
   __pyx_t_5 = 0;
   __pyx_v_S = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":76
+  /* "hype/adjacency_matrix_dataset.pyx":71
  * 
  *         S = (self.counts / np.sum(self.counts)) * self.counts.shape[0]
  *         A = np.arange(0, self.counts.shape[0], dtype=np.long)             # <<<<<<<<<<<<<<
  *         Tl = set(list((S < 1).nonzero()[0]))
  *         Th = set(list((S > 1).nonzero()[0]))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_arange); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_arange); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->counts->dimensions[0])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->counts->dimensions[0])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_INCREF(__pyx_int_0);
   __Pyx_GIVEREF(__pyx_int_0);
@@ -3408,21 +3390,21 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
   __Pyx_GIVEREF(__pyx_t_4);
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_4);
   __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_long); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_long); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dtype, __pyx_t_10) < 0) __PYX_ERR(0, 76, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dtype, __pyx_t_10) < 0) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-  __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_t_4); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_t_4); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (!(likely(((__pyx_t_10) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_10, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 76, __pyx_L1_error)
+  if (!(likely(((__pyx_t_10) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_10, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 71, __pyx_L1_error)
   __pyx_t_11 = ((PyArrayObject *)__pyx_t_10);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -3439,21 +3421,21 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
       __pyx_t_9 = __pyx_t_8 = __pyx_t_7 = 0;
     }
     __pyx_pybuffernd_A.diminfo[0].strides = __pyx_pybuffernd_A.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_A.diminfo[0].shape = __pyx_pybuffernd_A.rcbuffer->pybuffer.shape[0];
-    if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 76, __pyx_L1_error)
+    if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 71, __pyx_L1_error)
   }
   __pyx_t_11 = 0;
   __pyx_v_A = ((PyArrayObject *)__pyx_t_10);
   __pyx_t_10 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":77
+  /* "hype/adjacency_matrix_dataset.pyx":72
  *         S = (self.counts / np.sum(self.counts)) * self.counts.shape[0]
  *         A = np.arange(0, self.counts.shape[0], dtype=np.long)
  *         Tl = set(list((S < 1).nonzero()[0]))             # <<<<<<<<<<<<<<
  *         Th = set(list((S > 1).nonzero()[0]))
  * 
  */
-  __pyx_t_4 = PyObject_RichCompare(((PyObject *)__pyx_v_S), __pyx_int_1, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 77, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_nonzero); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_4 = PyObject_RichCompare(((PyObject *)__pyx_v_S), __pyx_int_1, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_nonzero); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = NULL;
@@ -3468,30 +3450,30 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
   }
   __pyx_t_10 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 77, __pyx_L1_error)
+  if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_10, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_10, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-  __pyx_t_10 = PySequence_List(__pyx_t_3); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_10 = PySequence_List(__pyx_t_3); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PySet_New(__pyx_t_10); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_3 = PySet_New(__pyx_t_10); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __pyx_v_Tl = ((PyObject*)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":78
+  /* "hype/adjacency_matrix_dataset.pyx":73
  *         A = np.arange(0, self.counts.shape[0], dtype=np.long)
  *         Tl = set(list((S < 1).nonzero()[0]))
  *         Th = set(list((S > 1).nonzero()[0]))             # <<<<<<<<<<<<<<
  * 
  *         while len(Tl) > 0 and len(Th) > 0:
  */
-  __pyx_t_10 = PyObject_RichCompare(((PyObject *)__pyx_v_S), __pyx_int_1, Py_GT); __Pyx_XGOTREF(__pyx_t_10); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 78, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_nonzero); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 78, __pyx_L1_error)
+  __pyx_t_10 = PyObject_RichCompare(((PyObject *)__pyx_v_S), __pyx_int_1, Py_GT); __Pyx_XGOTREF(__pyx_t_10); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_nonzero); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __pyx_t_10 = NULL;
@@ -3506,22 +3488,22 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
   }
   __pyx_t_3 = (__pyx_t_10) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_10) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 78, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_3, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 78, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_3, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PySequence_List(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 78, __pyx_L1_error)
+  __pyx_t_3 = PySequence_List(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = PySet_New(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 78, __pyx_L1_error)
+  __pyx_t_4 = PySet_New(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_Th = ((PyObject*)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":80
+  /* "hype/adjacency_matrix_dataset.pyx":75
  *         Th = set(list((S > 1).nonzero()[0]))
  * 
  *         while len(Tl) > 0 and len(Th) > 0:             # <<<<<<<<<<<<<<
@@ -3529,46 +3511,46 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
  *             k = Th.pop()
  */
   while (1) {
-    __pyx_t_13 = PySet_GET_SIZE(__pyx_v_Tl); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 80, __pyx_L1_error)
+    __pyx_t_13 = PySet_GET_SIZE(__pyx_v_Tl); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 75, __pyx_L1_error)
     __pyx_t_14 = ((__pyx_t_13 > 0) != 0);
     if (__pyx_t_14) {
     } else {
       __pyx_t_12 = __pyx_t_14;
       goto __pyx_L5_bool_binop_done;
     }
-    __pyx_t_13 = PySet_GET_SIZE(__pyx_v_Th); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 80, __pyx_L1_error)
+    __pyx_t_13 = PySet_GET_SIZE(__pyx_v_Th); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 75, __pyx_L1_error)
     __pyx_t_14 = ((__pyx_t_13 > 0) != 0);
     __pyx_t_12 = __pyx_t_14;
     __pyx_L5_bool_binop_done:;
     if (!__pyx_t_12) break;
 
-    /* "hype/adjacency_matrix_dataset.pyx":81
+    /* "hype/adjacency_matrix_dataset.pyx":76
  * 
  *         while len(Tl) > 0 and len(Th) > 0:
  *             j = Tl.pop()             # <<<<<<<<<<<<<<
  *             k = Th.pop()
  *             S[k] = S[k] - 1 + S[j]
  */
-    __pyx_t_4 = PySet_Pop(__pyx_v_Tl); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 81, __pyx_L1_error)
+    __pyx_t_4 = PySet_Pop(__pyx_v_Tl); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 76, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_15 = __Pyx_PyInt_As_long(__pyx_t_4); if (unlikely((__pyx_t_15 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 81, __pyx_L1_error)
+    __pyx_t_15 = __Pyx_PyInt_As_long(__pyx_t_4); if (unlikely((__pyx_t_15 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 76, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_v_j = __pyx_t_15;
 
-    /* "hype/adjacency_matrix_dataset.pyx":82
+    /* "hype/adjacency_matrix_dataset.pyx":77
  *         while len(Tl) > 0 and len(Th) > 0:
  *             j = Tl.pop()
  *             k = Th.pop()             # <<<<<<<<<<<<<<
  *             S[k] = S[k] - 1 + S[j]
  *             A[j] = k
  */
-    __pyx_t_4 = PySet_Pop(__pyx_v_Th); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 82, __pyx_L1_error)
+    __pyx_t_4 = PySet_Pop(__pyx_v_Th); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 77, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_15 = __Pyx_PyInt_As_long(__pyx_t_4); if (unlikely((__pyx_t_15 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 82, __pyx_L1_error)
+    __pyx_t_15 = __Pyx_PyInt_As_long(__pyx_t_4); if (unlikely((__pyx_t_15 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 77, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_v_k = __pyx_t_15;
 
-    /* "hype/adjacency_matrix_dataset.pyx":83
+    /* "hype/adjacency_matrix_dataset.pyx":78
  *             j = Tl.pop()
  *             k = Th.pop()
  *             S[k] = S[k] - 1 + S[j]             # <<<<<<<<<<<<<<
@@ -3580,7 +3562,7 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
     __pyx_t_18 = __pyx_v_k;
     *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_S.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_S.diminfo[0].strides) = (((*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_S.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_S.diminfo[0].strides)) - 1.0) + (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_S.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_S.diminfo[0].strides)));
 
-    /* "hype/adjacency_matrix_dataset.pyx":84
+    /* "hype/adjacency_matrix_dataset.pyx":79
  *             k = Th.pop()
  *             S[k] = S[k] - 1 + S[j]
  *             A[j] = k             # <<<<<<<<<<<<<<
@@ -3590,7 +3572,7 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
     __pyx_t_17 = __pyx_v_j;
     *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_long_t *, __pyx_pybuffernd_A.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_A.diminfo[0].strides) = __pyx_v_k;
 
-    /* "hype/adjacency_matrix_dataset.pyx":85
+    /* "hype/adjacency_matrix_dataset.pyx":80
  *             S[k] = S[k] - 1 + S[j]
  *             A[j] = k
  *             if S[k] < 1:             # <<<<<<<<<<<<<<
@@ -3601,19 +3583,19 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
     __pyx_t_12 = (((*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_S.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_S.diminfo[0].strides)) < 1.0) != 0);
     if (__pyx_t_12) {
 
-      /* "hype/adjacency_matrix_dataset.pyx":86
+      /* "hype/adjacency_matrix_dataset.pyx":81
  *             A[j] = k
  *             if S[k] < 1:
  *                 Tl.add(k)             # <<<<<<<<<<<<<<
  *             elif S[k] > 1:
  *                 Th.add(k)
  */
-      __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_k); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 86, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_k); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 81, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_19 = PySet_Add(__pyx_v_Tl, __pyx_t_4); if (unlikely(__pyx_t_19 == ((int)-1))) __PYX_ERR(0, 86, __pyx_L1_error)
+      __pyx_t_19 = PySet_Add(__pyx_v_Tl, __pyx_t_4); if (unlikely(__pyx_t_19 == ((int)-1))) __PYX_ERR(0, 81, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "hype/adjacency_matrix_dataset.pyx":85
+      /* "hype/adjacency_matrix_dataset.pyx":80
  *             S[k] = S[k] - 1 + S[j]
  *             A[j] = k
  *             if S[k] < 1:             # <<<<<<<<<<<<<<
@@ -3623,7 +3605,7 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
       goto __pyx_L7;
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":87
+    /* "hype/adjacency_matrix_dataset.pyx":82
  *             if S[k] < 1:
  *                 Tl.add(k)
  *             elif S[k] > 1:             # <<<<<<<<<<<<<<
@@ -3634,19 +3616,19 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
     __pyx_t_12 = (((*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_S.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_S.diminfo[0].strides)) > 1.0) != 0);
     if (__pyx_t_12) {
 
-      /* "hype/adjacency_matrix_dataset.pyx":88
+      /* "hype/adjacency_matrix_dataset.pyx":83
  *                 Tl.add(k)
  *             elif S[k] > 1:
  *                 Th.add(k)             # <<<<<<<<<<<<<<
  *         self.S = S
  *         self.A = A
  */
-      __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_k); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_k); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 83, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_19 = PySet_Add(__pyx_v_Th, __pyx_t_4); if (unlikely(__pyx_t_19 == ((int)-1))) __PYX_ERR(0, 88, __pyx_L1_error)
+      __pyx_t_19 = PySet_Add(__pyx_v_Th, __pyx_t_4); if (unlikely(__pyx_t_19 == ((int)-1))) __PYX_ERR(0, 83, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "hype/adjacency_matrix_dataset.pyx":87
+      /* "hype/adjacency_matrix_dataset.pyx":82
  *             if S[k] < 1:
  *                 Tl.add(k)
  *             elif S[k] > 1:             # <<<<<<<<<<<<<<
@@ -3657,33 +3639,33 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
     __pyx_L7:;
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":89
+  /* "hype/adjacency_matrix_dataset.pyx":84
  *             elif S[k] > 1:
  *                 Th.add(k)
  *         self.S = S             # <<<<<<<<<<<<<<
  *         self.A = A
  * 
  */
-  __pyx_t_20 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(((PyObject *)__pyx_v_S), PyBUF_WRITABLE); if (unlikely(!__pyx_t_20.memview)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_20 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(((PyObject *)__pyx_v_S), PyBUF_WRITABLE); if (unlikely(!__pyx_t_20.memview)) __PYX_ERR(0, 84, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->S, 0);
   __pyx_v_self->S = __pyx_t_20;
   __pyx_t_20.memview = NULL;
   __pyx_t_20.data = NULL;
 
-  /* "hype/adjacency_matrix_dataset.pyx":90
+  /* "hype/adjacency_matrix_dataset.pyx":85
  *                 Th.add(k)
  *         self.S = S
  *         self.A = A             # <<<<<<<<<<<<<<
  * 
  *     def iter(self):
  */
-  __pyx_t_21 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(((PyObject *)__pyx_v_A), PyBUF_WRITABLE); if (unlikely(!__pyx_t_21.memview)) __PYX_ERR(0, 90, __pyx_L1_error)
+  __pyx_t_21 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(((PyObject *)__pyx_v_A), PyBUF_WRITABLE); if (unlikely(!__pyx_t_21.memview)) __PYX_ERR(0, 85, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->A, 0);
   __pyx_v_self->A = __pyx_t_21;
   __pyx_t_21.memview = NULL;
   __pyx_t_21.data = NULL;
 
-  /* "hype/adjacency_matrix_dataset.pyx":62
+  /* "hype/adjacency_matrix_dataset.pyx":57
  *         self._setup_alias_tables()
  * 
  *     cdef _setup_alias_tables(self):             # <<<<<<<<<<<<<<
@@ -3725,7 +3707,7 @@ static PyObject *__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__se
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":92
+/* "hype/adjacency_matrix_dataset.pyx":87
  *         self.A = A
  * 
  *     def iter(self):             # <<<<<<<<<<<<<<
@@ -3757,7 +3739,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_2i
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("iter", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":93
+  /* "hype/adjacency_matrix_dataset.pyx":88
  * 
  *     def iter(self):
  *         return self.__iter__()             # <<<<<<<<<<<<<<
@@ -3765,7 +3747,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_2i
  *     def __iter__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_iter); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 93, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_iter); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -3779,14 +3761,14 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_2i
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 93, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":92
+  /* "hype/adjacency_matrix_dataset.pyx":87
  *         self.A = A
  * 
  *     def iter(self):             # <<<<<<<<<<<<<<
@@ -3807,7 +3789,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_2i
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":95
+/* "hype/adjacency_matrix_dataset.pyx":90
  *         return self.__iter__()
  * 
  *     def __iter__(self):             # <<<<<<<<<<<<<<
@@ -3847,23 +3829,23 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_4_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__iter__", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":96
+  /* "hype/adjacency_matrix_dataset.pyx":91
  * 
  *     def __iter__(self):
  *         self.perm = np.random.permutation(self.neighbors.shape[0])             # <<<<<<<<<<<<<<
  *         self.qsize = self.qsamples = self.current = self.join_count = self.qmisses = 0
  *         self.threads = []
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 91, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_random); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_random); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 91, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_permutation); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_permutation); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 91, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 96, __pyx_L1_error)}
-  __pyx_t_3 = PyInt_FromSsize_t((__pyx_v_self->neighbors.shape[0])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 91, __pyx_L1_error)}
+  __pyx_t_3 = PyInt_FromSsize_t((__pyx_v_self->neighbors.shape[0])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 91, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -3878,17 +3860,17 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_4_
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 96, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 91, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_ds_long(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 91, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->perm, 0);
   __pyx_v_self->perm = __pyx_t_5;
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "hype/adjacency_matrix_dataset.pyx":97
+  /* "hype/adjacency_matrix_dataset.pyx":92
  *     def __iter__(self):
  *         self.perm = np.random.permutation(self.neighbors.shape[0])
  *         self.qsize = self.qsamples = self.current = self.join_count = self.qmisses = 0             # <<<<<<<<<<<<<<
@@ -3901,14 +3883,14 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_4_
   __pyx_v_self->join_count = 0;
   __pyx_v_self->qmisses = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":98
+  /* "hype/adjacency_matrix_dataset.pyx":93
  *         self.perm = np.random.permutation(self.neighbors.shape[0])
  *         self.qsize = self.qsamples = self.current = self.join_count = self.qmisses = 0
  *         self.threads = []             # <<<<<<<<<<<<<<
  *         for i in range(self.num_workers):
  *             t = threading.Thread(target=self._worker, args=(i,))
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 93, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v_self->threads);
@@ -3916,7 +3898,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_4_
   __pyx_v_self->threads = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":99
+  /* "hype/adjacency_matrix_dataset.pyx":94
  *         self.qsize = self.qsamples = self.current = self.join_count = self.qmisses = 0
  *         self.threads = []
  *         for i in range(self.num_workers):             # <<<<<<<<<<<<<<
@@ -3928,48 +3910,48 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_4_
   for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
     __pyx_v_i = __pyx_t_8;
 
-    /* "hype/adjacency_matrix_dataset.pyx":100
+    /* "hype/adjacency_matrix_dataset.pyx":95
  *         self.threads = []
  *         for i in range(self.num_workers):
  *             t = threading.Thread(target=self._worker, args=(i,))             # <<<<<<<<<<<<<<
  *             t.start()
  *             self.threads.append(t)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_threading); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 100, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_threading); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 95, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_Thread); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_Thread); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 95, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 95, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_worker); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_worker); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 95, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_target, __pyx_t_3) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_target, __pyx_t_3) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 95, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 95, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_GIVEREF(__pyx_t_3);
     PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3);
     __pyx_t_3 = 0;
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_args, __pyx_t_4) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_args, __pyx_t_4) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 95, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "hype/adjacency_matrix_dataset.pyx":101
+    /* "hype/adjacency_matrix_dataset.pyx":96
  *         for i in range(self.num_workers):
  *             t = threading.Thread(target=self._worker, args=(i,))
  *             t.start()             # <<<<<<<<<<<<<<
  *             self.threads.append(t)
  *         return self
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_t, __pyx_n_s_start); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 101, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_t, __pyx_n_s_start); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 96, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_2 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
@@ -3983,12 +3965,12 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_4_
     }
     __pyx_t_4 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_1);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 101, __pyx_L1_error)
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 96, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "hype/adjacency_matrix_dataset.pyx":102
+    /* "hype/adjacency_matrix_dataset.pyx":97
  *             t = threading.Thread(target=self._worker, args=(i,))
  *             t.start()
  *             self.threads.append(t)             # <<<<<<<<<<<<<<
@@ -3997,12 +3979,12 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_4_
  */
     if (unlikely(__pyx_v_self->threads == Py_None)) {
       PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "append");
-      __PYX_ERR(0, 102, __pyx_L1_error)
+      __PYX_ERR(0, 97, __pyx_L1_error)
     }
-    __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_self->threads, __pyx_v_t); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 102, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_self->threads, __pyx_v_t); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 97, __pyx_L1_error)
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":103
+  /* "hype/adjacency_matrix_dataset.pyx":98
  *             t.start()
  *             self.threads.append(t)
  *         return self             # <<<<<<<<<<<<<<
@@ -4014,7 +3996,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_4_
   __pyx_r = ((PyObject *)__pyx_v_self);
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":95
+  /* "hype/adjacency_matrix_dataset.pyx":90
  *         return self.__iter__()
  * 
  *     def __iter__(self):             # <<<<<<<<<<<<<<
@@ -4038,7 +4020,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_4_
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":105
+/* "hype/adjacency_matrix_dataset.pyx":100
  *         return self
  * 
  *     def _worker(self, tid):             # <<<<<<<<<<<<<<
@@ -4084,17 +4066,17 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_worker", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":111
+  /* "hype/adjacency_matrix_dataset.pyx":106
  *         cdef unsigned long seed
  * 
  *         seed = tid             # <<<<<<<<<<<<<<
  *         while self.current < self.neighbors.shape[0]:
  *             start = self.current
  */
-  __pyx_t_1 = __Pyx_PyInt_As_unsigned_long(__pyx_v_tid); if (unlikely((__pyx_t_1 == (unsigned long)-1) && PyErr_Occurred())) __PYX_ERR(0, 111, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_As_unsigned_long(__pyx_v_tid); if (unlikely((__pyx_t_1 == (unsigned long)-1) && PyErr_Occurred())) __PYX_ERR(0, 106, __pyx_L1_error)
   __pyx_v_seed = __pyx_t_1;
 
-  /* "hype/adjacency_matrix_dataset.pyx":112
+  /* "hype/adjacency_matrix_dataset.pyx":107
  * 
  *         seed = tid
  *         while self.current < self.neighbors.shape[0]:             # <<<<<<<<<<<<<<
@@ -4102,11 +4084,11 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
  *             self.current += self.batch_size
  */
   while (1) {
-    if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 112, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 107, __pyx_L1_error)}
     __pyx_t_2 = ((__pyx_v_self->current < (__pyx_v_self->neighbors.shape[0])) != 0);
     if (!__pyx_t_2) break;
 
-    /* "hype/adjacency_matrix_dataset.pyx":113
+    /* "hype/adjacency_matrix_dataset.pyx":108
  *         seed = tid
  *         while self.current < self.neighbors.shape[0]:
  *             start = self.current             # <<<<<<<<<<<<<<
@@ -4116,7 +4098,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     __pyx_t_3 = __pyx_v_self->current;
     __pyx_v_start = __pyx_t_3;
 
-    /* "hype/adjacency_matrix_dataset.pyx":114
+    /* "hype/adjacency_matrix_dataset.pyx":109
  *         while self.current < self.neighbors.shape[0]:
  *             start = self.current
  *             self.current += self.batch_size             # <<<<<<<<<<<<<<
@@ -4125,21 +4107,21 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
  */
     __pyx_v_self->current = (__pyx_v_self->current + __pyx_v_self->batch_size);
 
-    /* "hype/adjacency_matrix_dataset.pyx":116
+    /* "hype/adjacency_matrix_dataset.pyx":111
  *             self.current += self.batch_size
  * 
  *             batch = torch.LongTensor(self.batch_size, self.nnegatives() + 2)             # <<<<<<<<<<<<<<
  *             memview = batch.numpy()
  *             with nogil:
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_torch); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 116, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_torch); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 111, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_LongTensor); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_LongTensor); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 111, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->batch_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 116, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->batch_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 111, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_nnegatives); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 116, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_nnegatives); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 111, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_9 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
@@ -4153,10 +4135,10 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     }
     __pyx_t_7 = (__pyx_t_9) ? __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_t_9) : __Pyx_PyObject_CallNoArg(__pyx_t_8);
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 116, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 111, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_PyInt_AddObjC(__pyx_t_7, __pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 116, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyInt_AddObjC(__pyx_t_7, __pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 111, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_7 = NULL;
@@ -4174,7 +4156,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_6)) {
       PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_t_5, __pyx_t_8};
-      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_6, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 116, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_6, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 111, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -4184,7 +4166,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_6)) {
       PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_t_5, __pyx_t_8};
-      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_6, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 116, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_6, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 111, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -4192,7 +4174,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     } else
     #endif
     {
-      __pyx_t_9 = PyTuple_New(2+__pyx_t_10); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 116, __pyx_L1_error)
+      __pyx_t_9 = PyTuple_New(2+__pyx_t_10); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 111, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       if (__pyx_t_7) {
         __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_7); __pyx_t_7 = NULL;
@@ -4203,7 +4185,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
       PyTuple_SET_ITEM(__pyx_t_9, 1+__pyx_t_10, __pyx_t_8);
       __pyx_t_5 = 0;
       __pyx_t_8 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_9, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 116, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_9, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 111, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     }
@@ -4211,14 +4193,14 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     __Pyx_XDECREF_SET(__pyx_v_batch, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "hype/adjacency_matrix_dataset.pyx":117
+    /* "hype/adjacency_matrix_dataset.pyx":112
  * 
  *             batch = torch.LongTensor(self.batch_size, self.nnegatives() + 2)
  *             memview = batch.numpy()             # <<<<<<<<<<<<<<
  *             with nogil:
  *                 count = self._getbatch(start, memview, &seed)
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch, __pyx_n_s_numpy); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch, __pyx_n_s_numpy); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 112, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_9 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
@@ -4232,17 +4214,17 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     }
     __pyx_t_4 = (__pyx_t_9) ? __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_9) : __Pyx_PyObject_CallNoArg(__pyx_t_6);
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 117, __pyx_L1_error)
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 112, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_dsds_long(__pyx_t_4, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_dsds_long(__pyx_t_4, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(0, 112, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __PYX_XDEC_MEMVIEW(&__pyx_v_memview, 1);
     __pyx_v_memview = __pyx_t_11;
     __pyx_t_11.memview = NULL;
     __pyx_t_11.data = NULL;
 
-    /* "hype/adjacency_matrix_dataset.pyx":118
+    /* "hype/adjacency_matrix_dataset.pyx":113
  *             batch = torch.LongTensor(self.batch_size, self.nnegatives() + 2)
  *             memview = batch.numpy()
  *             with nogil:             # <<<<<<<<<<<<<<
@@ -4257,7 +4239,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
         #endif
         /*try:*/ {
 
-          /* "hype/adjacency_matrix_dataset.pyx":119
+          /* "hype/adjacency_matrix_dataset.pyx":114
  *             memview = batch.numpy()
  *             with nogil:
  *                 count = self._getbatch(start, memview, &seed)             # <<<<<<<<<<<<<<
@@ -4267,7 +4249,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
           __pyx_v_count = ((struct __pyx_vtabstruct_4hype_24adjacency_matrix_dataset_AdjacencyDataset *)__pyx_v_self->__pyx_vtab)->_getbatch(__pyx_v_self, __pyx_v_start, __pyx_v_memview, (&__pyx_v_seed));
         }
 
-        /* "hype/adjacency_matrix_dataset.pyx":118
+        /* "hype/adjacency_matrix_dataset.pyx":113
  *             batch = torch.LongTensor(self.batch_size, self.nnegatives() + 2)
  *             memview = batch.numpy()
  *             with nogil:             # <<<<<<<<<<<<<<
@@ -4286,7 +4268,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
         }
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":120
+    /* "hype/adjacency_matrix_dataset.pyx":115
  *             with nogil:
  *                 count = self._getbatch(start, memview, &seed)
  *             if count < self.batch_size:             # <<<<<<<<<<<<<<
@@ -4296,16 +4278,16 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     __pyx_t_2 = ((__pyx_v_count < __pyx_v_self->batch_size) != 0);
     if (__pyx_t_2) {
 
-      /* "hype/adjacency_matrix_dataset.pyx":121
+      /* "hype/adjacency_matrix_dataset.pyx":116
  *                 count = self._getbatch(start, memview, &seed)
  *             if count < self.batch_size:
  *                 batch = batch.narrow(0, 0, count)             # <<<<<<<<<<<<<<
  *             self.queue.put((batch, torch.zeros(count).long()))
  *         self.queue.put(tid)
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch, __pyx_n_s_narrow); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch, __pyx_n_s_narrow); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_9 = __Pyx_PyInt_From_int(__pyx_v_count); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 121, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyInt_From_int(__pyx_v_count); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 116, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __pyx_t_8 = NULL;
       __pyx_t_10 = 0;
@@ -4322,7 +4304,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_6)) {
         PyObject *__pyx_temp[4] = {__pyx_t_8, __pyx_int_0, __pyx_int_0, __pyx_t_9};
-        __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_6, __pyx_temp+1-__pyx_t_10, 3+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 121, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_6, __pyx_temp+1-__pyx_t_10, 3+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 116, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
@@ -4331,14 +4313,14 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_6)) {
         PyObject *__pyx_temp[4] = {__pyx_t_8, __pyx_int_0, __pyx_int_0, __pyx_t_9};
-        __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_6, __pyx_temp+1-__pyx_t_10, 3+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 121, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_6, __pyx_temp+1-__pyx_t_10, 3+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 116, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       } else
       #endif
       {
-        __pyx_t_5 = PyTuple_New(3+__pyx_t_10); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 121, __pyx_L1_error)
+        __pyx_t_5 = PyTuple_New(3+__pyx_t_10); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 116, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         if (__pyx_t_8) {
           __Pyx_GIVEREF(__pyx_t_8); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_8); __pyx_t_8 = NULL;
@@ -4352,7 +4334,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
         __Pyx_GIVEREF(__pyx_t_9);
         PyTuple_SET_ITEM(__pyx_t_5, 2+__pyx_t_10, __pyx_t_9);
         __pyx_t_9 = 0;
-        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 121, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 116, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
@@ -4360,7 +4342,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
       __Pyx_DECREF_SET(__pyx_v_batch, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "hype/adjacency_matrix_dataset.pyx":120
+      /* "hype/adjacency_matrix_dataset.pyx":115
  *             with nogil:
  *                 count = self._getbatch(start, memview, &seed)
  *             if count < self.batch_size:             # <<<<<<<<<<<<<<
@@ -4369,21 +4351,21 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
  */
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":122
+    /* "hype/adjacency_matrix_dataset.pyx":117
  *             if count < self.batch_size:
  *                 batch = batch.narrow(0, 0, count)
  *             self.queue.put((batch, torch.zeros(count).long()))             # <<<<<<<<<<<<<<
  *         self.queue.put(tid)
  * 
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->queue, __pyx_n_s_put); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->queue, __pyx_n_s_put); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_torch); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_torch); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_zeros); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_zeros); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_count); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_count); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_12 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_7))) {
@@ -4398,10 +4380,10 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     __pyx_t_9 = (__pyx_t_12) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_12, __pyx_t_8) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_8);
     __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 122, __pyx_L1_error)
+    if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_long); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_long); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     __pyx_t_9 = NULL;
@@ -4416,10 +4398,10 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     }
     __pyx_t_5 = (__pyx_t_9) ? __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_9) : __Pyx_PyObject_CallNoArg(__pyx_t_7);
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 122, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = PyTuple_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __pyx_t_7 = PyTuple_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_INCREF(__pyx_v_batch);
     __Pyx_GIVEREF(__pyx_v_batch);
@@ -4440,20 +4422,20 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
     __pyx_t_4 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_5, __pyx_t_7) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_7);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 122, __pyx_L1_error)
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":123
+  /* "hype/adjacency_matrix_dataset.pyx":118
  *                 batch = batch.narrow(0, 0, count)
  *             self.queue.put((batch, torch.zeros(count).long()))
  *         self.queue.put(tid)             # <<<<<<<<<<<<<<
  * 
  *     def __len__(self):
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->queue, __pyx_n_s_put); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 123, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->queue, __pyx_n_s_put); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_7 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
@@ -4467,12 +4449,12 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
   }
   __pyx_t_4 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_7, __pyx_v_tid) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_v_tid);
   __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":105
+  /* "hype/adjacency_matrix_dataset.pyx":100
  *         return self
  * 
  *     def _worker(self, tid):             # <<<<<<<<<<<<<<
@@ -4502,7 +4484,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6_
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":125
+/* "hype/adjacency_matrix_dataset.pyx":120
  *         self.queue.put(tid)
  * 
  *     def __len__(self):             # <<<<<<<<<<<<<<
@@ -4536,20 +4518,20 @@ static Py_ssize_t __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_8
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__len__", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":126
+  /* "hype/adjacency_matrix_dataset.pyx":121
  * 
  *     def __len__(self):
  *         return int(np.ceil(float(self.neighbors.shape[0]) / self.batch_size))             # <<<<<<<<<<<<<<
  * 
  *     def avg_queue_size(self):
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 126, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_ceil); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_ceil); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 126, __pyx_L1_error)}
-  __pyx_t_2 = PyFloat_FromDouble((((double)(__pyx_v_self->neighbors.shape[0])) / __pyx_v_self->batch_size)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 126, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 121, __pyx_L1_error)}
+  __pyx_t_2 = PyFloat_FromDouble((((double)(__pyx_v_self->neighbors.shape[0])) / __pyx_v_self->batch_size)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -4564,18 +4546,18 @@ static Py_ssize_t __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_8
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 126, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_3); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_3); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":125
+  /* "hype/adjacency_matrix_dataset.pyx":120
  *         self.queue.put(tid)
  * 
  *     def __len__(self):             # <<<<<<<<<<<<<<
@@ -4596,7 +4578,7 @@ static Py_ssize_t __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_8
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":128
+/* "hype/adjacency_matrix_dataset.pyx":123
  *         return int(np.ceil(float(self.neighbors.shape[0]) / self.batch_size))
  * 
  *     def avg_queue_size(self):             # <<<<<<<<<<<<<<
@@ -4626,7 +4608,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_10
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("avg_queue_size", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":129
+  /* "hype/adjacency_matrix_dataset.pyx":124
  * 
  *     def avg_queue_size(self):
  *         return float(self.qsize) / self.qsamples             # <<<<<<<<<<<<<<
@@ -4634,13 +4616,13 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_10
  *     def queue_misses(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyFloat_FromDouble((((double)__pyx_v_self->qsize) / __pyx_v_self->qsamples)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble((((double)__pyx_v_self->qsize) / __pyx_v_self->qsamples)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":128
+  /* "hype/adjacency_matrix_dataset.pyx":123
  *         return int(np.ceil(float(self.neighbors.shape[0]) / self.batch_size))
  * 
  *     def avg_queue_size(self):             # <<<<<<<<<<<<<<
@@ -4659,7 +4641,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_10
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":131
+/* "hype/adjacency_matrix_dataset.pyx":126
  *         return float(self.qsize) / self.qsamples
  * 
  *     def queue_misses(self):             # <<<<<<<<<<<<<<
@@ -4689,7 +4671,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_12
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("queue_misses", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":132
+  /* "hype/adjacency_matrix_dataset.pyx":127
  * 
  *     def queue_misses(self):
  *         return self.qmisses             # <<<<<<<<<<<<<<
@@ -4697,13 +4679,13 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_12
  *     def __next__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qmisses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 132, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qmisses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 127, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":131
+  /* "hype/adjacency_matrix_dataset.pyx":126
  *         return float(self.qsize) / self.qsamples
  * 
  *     def queue_misses(self):             # <<<<<<<<<<<<<<
@@ -4722,7 +4704,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_12
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":134
+/* "hype/adjacency_matrix_dataset.pyx":129
  *         return self.qmisses
  * 
  *     def __next__(self):             # <<<<<<<<<<<<<<
@@ -4754,7 +4736,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_14
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__next__", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":135
+  /* "hype/adjacency_matrix_dataset.pyx":130
  * 
  *     def __next__(self):
  *         return self.next()             # <<<<<<<<<<<<<<
@@ -4762,7 +4744,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_14
  *     def next(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_next); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_next); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -4776,14 +4758,14 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_14
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 135, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":134
+  /* "hype/adjacency_matrix_dataset.pyx":129
  *         return self.qmisses
  * 
  *     def __next__(self):             # <<<<<<<<<<<<<<
@@ -4804,7 +4786,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_14
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":137
+/* "hype/adjacency_matrix_dataset.pyx":132
  *         return self.next()
  * 
  *     def next(self):             # <<<<<<<<<<<<<<
@@ -4845,14 +4827,89 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("next", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":145
+  /* "hype/adjacency_matrix_dataset.pyx":140
  *             idx (int): index into the dataset
  *         '''
  *         size = self.queue.qsize()             # <<<<<<<<<<<<<<
  *         if size == 0 and self.join_count == len(self.threads):
  *             # No more items in queue and we've joined with all worker threads
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->queue, __pyx_n_s_qsize); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->queue, __pyx_n_s_qsize); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 140, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_3)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_3);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_2, function);
+    }
+  }
+  __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 140, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_v_size = __pyx_t_1;
+  __pyx_t_1 = 0;
+
+  /* "hype/adjacency_matrix_dataset.pyx":141
+ *         '''
+ *         size = self.queue.qsize()
+ *         if size == 0 and self.join_count == len(self.threads):             # <<<<<<<<<<<<<<
+ *             # No more items in queue and we've joined with all worker threads
+ *             raise StopIteration
+ */
+  __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_size, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 141, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 141, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__pyx_t_5) {
+  } else {
+    __pyx_t_4 = __pyx_t_5;
+    goto __pyx_L4_bool_binop_done;
+  }
+  __pyx_t_1 = __pyx_v_self->threads;
+  __Pyx_INCREF(__pyx_t_1);
+  if (unlikely(__pyx_t_1 == Py_None)) {
+    PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
+    __PYX_ERR(0, 141, __pyx_L1_error)
+  }
+  __pyx_t_6 = PyList_GET_SIZE(__pyx_t_1); if (unlikely(__pyx_t_6 == ((Py_ssize_t)-1))) __PYX_ERR(0, 141, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_5 = ((__pyx_v_self->join_count == __pyx_t_6) != 0);
+  __pyx_t_4 = __pyx_t_5;
+  __pyx_L4_bool_binop_done:;
+  if (unlikely(__pyx_t_4)) {
+
+    /* "hype/adjacency_matrix_dataset.pyx":143
+ *         if size == 0 and self.join_count == len(self.threads):
+ *             # No more items in queue and we've joined with all worker threads
+ *             raise StopIteration             # <<<<<<<<<<<<<<
+ * 
+ *         item = self.queue.get()
+ */
+    __Pyx_Raise(__pyx_builtin_StopIteration, 0, 0, 0);
+    __PYX_ERR(0, 143, __pyx_L1_error)
+
+    /* "hype/adjacency_matrix_dataset.pyx":141
+ *         '''
+ *         size = self.queue.qsize()
+ *         if size == 0 and self.join_count == len(self.threads):             # <<<<<<<<<<<<<<
+ *             # No more items in queue and we've joined with all worker threads
+ *             raise StopIteration
+ */
+  }
+
+  /* "hype/adjacency_matrix_dataset.pyx":145
+ *             raise StopIteration
+ * 
+ *         item = self.queue.get()             # <<<<<<<<<<<<<<
+ *         if isinstance(item, int):
+ *             self.join_count += 1
+ */
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->queue, __pyx_n_s_get); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -4869,85 +4926,10 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
   if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_size = __pyx_t_1;
-  __pyx_t_1 = 0;
-
-  /* "hype/adjacency_matrix_dataset.pyx":146
- *         '''
- *         size = self.queue.qsize()
- *         if size == 0 and self.join_count == len(self.threads):             # <<<<<<<<<<<<<<
- *             # No more items in queue and we've joined with all worker threads
- *             raise StopIteration
- */
-  __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_size, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 146, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 146, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__pyx_t_5) {
-  } else {
-    __pyx_t_4 = __pyx_t_5;
-    goto __pyx_L4_bool_binop_done;
-  }
-  __pyx_t_1 = __pyx_v_self->threads;
-  __Pyx_INCREF(__pyx_t_1);
-  if (unlikely(__pyx_t_1 == Py_None)) {
-    PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-    __PYX_ERR(0, 146, __pyx_L1_error)
-  }
-  __pyx_t_6 = PyList_GET_SIZE(__pyx_t_1); if (unlikely(__pyx_t_6 == ((Py_ssize_t)-1))) __PYX_ERR(0, 146, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_5 = ((__pyx_v_self->join_count == __pyx_t_6) != 0);
-  __pyx_t_4 = __pyx_t_5;
-  __pyx_L4_bool_binop_done:;
-  if (unlikely(__pyx_t_4)) {
-
-    /* "hype/adjacency_matrix_dataset.pyx":148
- *         if size == 0 and self.join_count == len(self.threads):
- *             # No more items in queue and we've joined with all worker threads
- *             raise StopIteration             # <<<<<<<<<<<<<<
- * 
- *         item = self.queue.get()
- */
-    __Pyx_Raise(__pyx_builtin_StopIteration, 0, 0, 0);
-    __PYX_ERR(0, 148, __pyx_L1_error)
-
-    /* "hype/adjacency_matrix_dataset.pyx":146
- *         '''
- *         size = self.queue.qsize()
- *         if size == 0 and self.join_count == len(self.threads):             # <<<<<<<<<<<<<<
- *             # No more items in queue and we've joined with all worker threads
- *             raise StopIteration
- */
-  }
-
-  /* "hype/adjacency_matrix_dataset.pyx":150
- *             raise StopIteration
- * 
- *         item = self.queue.get()             # <<<<<<<<<<<<<<
- *         if isinstance(item, int):
- *             self.join_count += 1
- */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->queue, __pyx_n_s_get); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 150, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = NULL;
-  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_3)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_3);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
-    }
-  }
-  __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 150, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_item = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":151
+  /* "hype/adjacency_matrix_dataset.pyx":146
  * 
  *         item = self.queue.get()
  *         if isinstance(item, int):             # <<<<<<<<<<<<<<
@@ -4958,7 +4940,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
   __pyx_t_5 = (__pyx_t_4 != 0);
   if (__pyx_t_5) {
 
-    /* "hype/adjacency_matrix_dataset.pyx":152
+    /* "hype/adjacency_matrix_dataset.pyx":147
  *         item = self.queue.get()
  *         if isinstance(item, int):
  *             self.join_count += 1             # <<<<<<<<<<<<<<
@@ -4967,7 +4949,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
  */
     __pyx_v_self->join_count = (__pyx_v_self->join_count + 1);
 
-    /* "hype/adjacency_matrix_dataset.pyx":153
+    /* "hype/adjacency_matrix_dataset.pyx":148
  *         if isinstance(item, int):
  *             self.join_count += 1
  *             self.threads[item].join()  # Thread `item` is finished, join with it...             # <<<<<<<<<<<<<<
@@ -4976,11 +4958,11 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
  */
     if (unlikely(__pyx_v_self->threads == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 153, __pyx_L1_error)
+      __PYX_ERR(0, 148, __pyx_L1_error)
     }
-    __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_v_self->threads, __pyx_v_item); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 153, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_v_self->threads, __pyx_v_item); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 148, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_join); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 153, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_join); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 148, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -4995,12 +4977,12 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
     }
     __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 153, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 148, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "hype/adjacency_matrix_dataset.pyx":154
+    /* "hype/adjacency_matrix_dataset.pyx":149
  *             self.join_count += 1
  *             self.threads[item].join()  # Thread `item` is finished, join with it...
  *             return self.next()  # try again...             # <<<<<<<<<<<<<<
@@ -5008,7 +4990,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
  *         self.qsamples += 1
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_next); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 154, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_next); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 149, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_2 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -5022,14 +5004,14 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
     }
     __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 154, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 149, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_r = __pyx_t_1;
     __pyx_t_1 = 0;
     goto __pyx_L0;
 
-    /* "hype/adjacency_matrix_dataset.pyx":151
+    /* "hype/adjacency_matrix_dataset.pyx":146
  * 
  *         item = self.queue.get()
  *         if isinstance(item, int):             # <<<<<<<<<<<<<<
@@ -5038,23 +5020,23 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
  */
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":155
+  /* "hype/adjacency_matrix_dataset.pyx":150
  *             self.threads[item].join()  # Thread `item` is finished, join with it...
  *             return self.next()  # try again...
  *         self.qsize += size             # <<<<<<<<<<<<<<
  *         self.qsamples += 1
  *         prevmisses = self.qmisses
  */
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qsize); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 155, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qsize); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = PyNumber_InPlaceAdd(__pyx_t_1, __pyx_v_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 155, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_InPlaceAdd(__pyx_t_1, __pyx_v_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_7 = __Pyx_PyInt_As_int(__pyx_t_3); if (unlikely((__pyx_t_7 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 155, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyInt_As_int(__pyx_t_3); if (unlikely((__pyx_t_7 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_self->qsize = __pyx_t_7;
 
-  /* "hype/adjacency_matrix_dataset.pyx":156
+  /* "hype/adjacency_matrix_dataset.pyx":151
  *             return self.next()  # try again...
  *         self.qsize += size
  *         self.qsamples += 1             # <<<<<<<<<<<<<<
@@ -5063,7 +5045,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
  */
   __pyx_v_self->qsamples = (__pyx_v_self->qsamples + 1);
 
-  /* "hype/adjacency_matrix_dataset.pyx":157
+  /* "hype/adjacency_matrix_dataset.pyx":152
  *         self.qsize += size
  *         self.qsamples += 1
  *         prevmisses = self.qmisses             # <<<<<<<<<<<<<<
@@ -5073,16 +5055,16 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
   __pyx_t_7 = __pyx_v_self->qmisses;
   __pyx_v_prevmisses = __pyx_t_7;
 
-  /* "hype/adjacency_matrix_dataset.pyx":158
+  /* "hype/adjacency_matrix_dataset.pyx":153
  *         self.qsamples += 1
  *         prevmisses = self.qmisses
  *         self.qmisses += 1 if size == 0 else 0             # <<<<<<<<<<<<<<
  *         if self.qmisses == 20 and prevmisses == 19:
  *             print('Warning: not enough threads to keep up with training loop!')
  */
-  __pyx_t_3 = __Pyx_PyInt_EqObjC(__pyx_v_size, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 158, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_EqObjC(__pyx_v_size, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 153, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 158, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 153, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_5) {
     __pyx_t_8 = 1;
@@ -5091,7 +5073,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
   }
   __pyx_v_self->qmisses = (__pyx_v_self->qmisses + __pyx_t_8);
 
-  /* "hype/adjacency_matrix_dataset.pyx":159
+  /* "hype/adjacency_matrix_dataset.pyx":154
  *         prevmisses = self.qmisses
  *         self.qmisses += 1 if size == 0 else 0
  *         if self.qmisses == 20 and prevmisses == 19:             # <<<<<<<<<<<<<<
@@ -5109,16 +5091,16 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
   __pyx_L8_bool_binop_done:;
   if (__pyx_t_5) {
 
-    /* "hype/adjacency_matrix_dataset.pyx":160
+    /* "hype/adjacency_matrix_dataset.pyx":155
  *         self.qmisses += 1 if size == 0 else 0
  *         if self.qmisses == 20 and prevmisses == 19:
  *             print('Warning: not enough threads to keep up with training loop!')             # <<<<<<<<<<<<<<
  *         return item
  * 
  */
-    if (__Pyx_PrintOne(0, __pyx_kp_s_Warning_not_enough_threads_to_ke) < 0) __PYX_ERR(0, 160, __pyx_L1_error)
+    if (__Pyx_PrintOne(0, __pyx_kp_s_Warning_not_enough_threads_to_ke) < 0) __PYX_ERR(0, 155, __pyx_L1_error)
 
-    /* "hype/adjacency_matrix_dataset.pyx":159
+    /* "hype/adjacency_matrix_dataset.pyx":154
  *         prevmisses = self.qmisses
  *         self.qmisses += 1 if size == 0 else 0
  *         if self.qmisses == 20 and prevmisses == 19:             # <<<<<<<<<<<<<<
@@ -5127,7 +5109,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
  */
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":161
+  /* "hype/adjacency_matrix_dataset.pyx":156
  *         if self.qmisses == 20 and prevmisses == 19:
  *             print('Warning: not enough threads to keep up with training loop!')
  *         return item             # <<<<<<<<<<<<<<
@@ -5139,7 +5121,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
   __pyx_r = __pyx_v_item;
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":137
+  /* "hype/adjacency_matrix_dataset.pyx":132
  *         return self.next()
  * 
  *     def next(self):             # <<<<<<<<<<<<<<
@@ -5162,7 +5144,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_16
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":163
+/* "hype/adjacency_matrix_dataset.pyx":158
  *         return item
  * 
  *     cdef long random_node(self, unsigned long* seed) nogil:             # <<<<<<<<<<<<<<
@@ -5180,7 +5162,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_random_n
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":167
+  /* "hype/adjacency_matrix_dataset.pyx":162
  *         cdef double u
  * 
  *         if self.burnin:             # <<<<<<<<<<<<<<
@@ -5190,7 +5172,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_random_n
   __pyx_t_1 = (__pyx_v_self->burnin != 0);
   if (__pyx_t_1) {
 
-    /* "hype/adjacency_matrix_dataset.pyx":168
+    /* "hype/adjacency_matrix_dataset.pyx":163
  * 
  *         if self.burnin:
  *             u = <double>rand_r(seed) / <double>RAND_MAX * self.N             # <<<<<<<<<<<<<<
@@ -5199,7 +5181,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_random_n
  */
     __pyx_v_u = ((((double)__pyx_f_4hype_24adjacency_matrix_dataset_rand_r(__pyx_v_seed)) / ((double)RAND_MAX)) * __pyx_v_self->N);
 
-    /* "hype/adjacency_matrix_dataset.pyx":169
+    /* "hype/adjacency_matrix_dataset.pyx":164
  *         if self.burnin:
  *             u = <double>rand_r(seed) / <double>RAND_MAX * self.N
  *             fu = <long>u             # <<<<<<<<<<<<<<
@@ -5208,31 +5190,31 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_random_n
  */
     __pyx_v_fu = ((long)__pyx_v_u);
 
-    /* "hype/adjacency_matrix_dataset.pyx":170
+    /* "hype/adjacency_matrix_dataset.pyx":165
  *             u = <double>rand_r(seed) / <double>RAND_MAX * self.N
  *             fu = <long>u
  *             if self.S[fu] <= u - fu:             # <<<<<<<<<<<<<<
  *                 return self.A[fu]
  *             else:
  */
-    if (unlikely(!__pyx_v_self->S.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 170, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_self->S.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 165, __pyx_L1_error)}
     __pyx_t_2 = __pyx_v_fu;
     __pyx_t_1 = (((*((double *) ( /* dim=0 */ (__pyx_v_self->S.data + __pyx_t_2 * __pyx_v_self->S.strides[0]) ))) <= (__pyx_v_u - __pyx_v_fu)) != 0);
     if (__pyx_t_1) {
 
-      /* "hype/adjacency_matrix_dataset.pyx":171
+      /* "hype/adjacency_matrix_dataset.pyx":166
  *             fu = <long>u
  *             if self.S[fu] <= u - fu:
  *                 return self.A[fu]             # <<<<<<<<<<<<<<
  *             else:
  *                 return fu
  */
-      if (unlikely(!__pyx_v_self->A.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 171, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_self->A.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 166, __pyx_L1_error)}
       __pyx_t_2 = __pyx_v_fu;
       __pyx_r = (*((long *) ( /* dim=0 */ (__pyx_v_self->A.data + __pyx_t_2 * __pyx_v_self->A.strides[0]) )));
       goto __pyx_L0;
 
-      /* "hype/adjacency_matrix_dataset.pyx":170
+      /* "hype/adjacency_matrix_dataset.pyx":165
  *             u = <double>rand_r(seed) / <double>RAND_MAX * self.N
  *             fu = <long>u
  *             if self.S[fu] <= u - fu:             # <<<<<<<<<<<<<<
@@ -5241,7 +5223,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_random_n
  */
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":173
+    /* "hype/adjacency_matrix_dataset.pyx":168
  *                 return self.A[fu]
  *             else:
  *                 return fu             # <<<<<<<<<<<<<<
@@ -5253,7 +5235,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_random_n
       goto __pyx_L0;
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":167
+    /* "hype/adjacency_matrix_dataset.pyx":162
  *         cdef double u
  * 
  *         if self.burnin:             # <<<<<<<<<<<<<<
@@ -5262,7 +5244,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_random_n
  */
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":175
+  /* "hype/adjacency_matrix_dataset.pyx":170
  *                 return fu
  *         else:
  *             return <long>(<double>rand_r(seed) / <double>RAND_MAX * self.N)             # <<<<<<<<<<<<<<
@@ -5274,7 +5256,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_random_n
     goto __pyx_L0;
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":163
+  /* "hype/adjacency_matrix_dataset.pyx":158
  *         return item
  * 
  *     cdef long random_node(self, unsigned long* seed) nogil:             # <<<<<<<<<<<<<<
@@ -5290,7 +5272,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_random_n
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":177
+/* "hype/adjacency_matrix_dataset.pyx":172
  *             return <long>(<double>rand_r(seed) / <double>RAND_MAX * self.N)
  * 
  *     cdef long binary_search(self, long target, long[:] arr, long l, long r, bool approx) nogil:             # <<<<<<<<<<<<<<
@@ -5307,7 +5289,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
   Py_ssize_t __pyx_t_3;
   long __pyx_t_4;
 
-  /* "hype/adjacency_matrix_dataset.pyx":184
+  /* "hype/adjacency_matrix_dataset.pyx":179
  *         '''
  *         cdef long mid, N
  *         N = r             # <<<<<<<<<<<<<<
@@ -5316,7 +5298,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
  */
   __pyx_v_N = __pyx_v_r;
 
-  /* "hype/adjacency_matrix_dataset.pyx":185
+  /* "hype/adjacency_matrix_dataset.pyx":180
  *         cdef long mid, N
  *         N = r
  *         while l <= r:             # <<<<<<<<<<<<<<
@@ -5327,7 +5309,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
     __pyx_t_1 = ((__pyx_v_l <= __pyx_v_r) != 0);
     if (!__pyx_t_1) break;
 
-    /* "hype/adjacency_matrix_dataset.pyx":186
+    /* "hype/adjacency_matrix_dataset.pyx":181
  *         N = r
  *         while l <= r:
  *             mid = <long>((l + r) / 2)             # <<<<<<<<<<<<<<
@@ -5336,7 +5318,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
  */
     __pyx_v_mid = ((long)((__pyx_v_l + __pyx_v_r) / 2));
 
-    /* "hype/adjacency_matrix_dataset.pyx":187
+    /* "hype/adjacency_matrix_dataset.pyx":182
  *         while l <= r:
  *             mid = <long>((l + r) / 2)
  *             if (approx and arr[mid] <= target and (mid+1 > N or arr[mid+1] > target)) \             # <<<<<<<<<<<<<<
@@ -5369,7 +5351,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
     }
     __pyx_L7_next_or:;
 
-    /* "hype/adjacency_matrix_dataset.pyx":188
+    /* "hype/adjacency_matrix_dataset.pyx":183
  *             mid = <long>((l + r) / 2)
  *             if (approx and arr[mid] <= target and (mid+1 > N or arr[mid+1] > target)) \
  *                     or arr[mid] == target:             # <<<<<<<<<<<<<<
@@ -5381,7 +5363,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
     __pyx_t_1 = __pyx_t_2;
     __pyx_L6_bool_binop_done:;
 
-    /* "hype/adjacency_matrix_dataset.pyx":187
+    /* "hype/adjacency_matrix_dataset.pyx":182
  *         while l <= r:
  *             mid = <long>((l + r) / 2)
  *             if (approx and arr[mid] <= target and (mid+1 > N or arr[mid+1] > target)) \             # <<<<<<<<<<<<<<
@@ -5390,7 +5372,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
  */
     if (__pyx_t_1) {
 
-      /* "hype/adjacency_matrix_dataset.pyx":189
+      /* "hype/adjacency_matrix_dataset.pyx":184
  *             if (approx and arr[mid] <= target and (mid+1 > N or arr[mid+1] > target)) \
  *                     or arr[mid] == target:
  *                 return mid             # <<<<<<<<<<<<<<
@@ -5400,7 +5382,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
       __pyx_r = __pyx_v_mid;
       goto __pyx_L0;
 
-      /* "hype/adjacency_matrix_dataset.pyx":187
+      /* "hype/adjacency_matrix_dataset.pyx":182
  *         while l <= r:
  *             mid = <long>((l + r) / 2)
  *             if (approx and arr[mid] <= target and (mid+1 > N or arr[mid+1] > target)) \             # <<<<<<<<<<<<<<
@@ -5409,7 +5391,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
  */
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":190
+    /* "hype/adjacency_matrix_dataset.pyx":185
  *                     or arr[mid] == target:
  *                 return mid
  *             if arr[mid] < target:             # <<<<<<<<<<<<<<
@@ -5420,7 +5402,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
     __pyx_t_1 = (((*((long *) ( /* dim=0 */ (__pyx_v_arr.data + __pyx_t_3 * __pyx_v_arr.strides[0]) ))) < __pyx_v_target) != 0);
     if (__pyx_t_1) {
 
-      /* "hype/adjacency_matrix_dataset.pyx":191
+      /* "hype/adjacency_matrix_dataset.pyx":186
  *                 return mid
  *             if arr[mid] < target:
  *                 l = mid + 1             # <<<<<<<<<<<<<<
@@ -5429,7 +5411,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
  */
       __pyx_v_l = (__pyx_v_mid + 1);
 
-      /* "hype/adjacency_matrix_dataset.pyx":190
+      /* "hype/adjacency_matrix_dataset.pyx":185
  *                     or arr[mid] == target:
  *                 return mid
  *             if arr[mid] < target:             # <<<<<<<<<<<<<<
@@ -5439,7 +5421,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
       goto __pyx_L11;
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":193
+    /* "hype/adjacency_matrix_dataset.pyx":188
  *                 l = mid + 1
  *             else:
  *                 r = mid - 1             # <<<<<<<<<<<<<<
@@ -5452,7 +5434,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
     __pyx_L11:;
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":194
+  /* "hype/adjacency_matrix_dataset.pyx":189
  *             else:
  *                 r = mid - 1
  *         return 0 if approx else -1             # <<<<<<<<<<<<<<
@@ -5467,7 +5449,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
   __pyx_r = __pyx_t_4;
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":177
+  /* "hype/adjacency_matrix_dataset.pyx":172
  *             return <long>(<double>rand_r(seed) / <double>RAND_MAX * self.N)
  * 
  *     cdef long binary_search(self, long target, long[:] arr, long l, long r, bool approx) nogil:             # <<<<<<<<<<<<<<
@@ -5480,7 +5462,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_s
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":196
+/* "hype/adjacency_matrix_dataset.pyx":191
  *         return 0 if approx else -1
  * 
  *     cdef long _getbatch(self, long idx, long[:,:] batch, unsigned long* seed) nogil:             # <<<<<<<<<<<<<<
@@ -5516,17 +5498,17 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":200
+  /* "hype/adjacency_matrix_dataset.pyx":195
  *         cdef long rnodeidx, rand_node
  *         cdef unordered_set[long] negs
  *         nnodes = self.ids.shape[0]             # <<<<<<<<<<<<<<
  *         i = 0
  * 
  */
-  if (unlikely(!__pyx_v_self->ids.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 200, __pyx_L1_error)}
+  if (unlikely(!__pyx_v_self->ids.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 195, __pyx_L1_error)}
   __pyx_v_nnodes = (__pyx_v_self->ids.shape[0]);
 
-  /* "hype/adjacency_matrix_dataset.pyx":201
+  /* "hype/adjacency_matrix_dataset.pyx":196
  *         cdef unordered_set[long] negs
  *         nnodes = self.ids.shape[0]
  *         i = 0             # <<<<<<<<<<<<<<
@@ -5535,7 +5517,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
   __pyx_v_i = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":203
+  /* "hype/adjacency_matrix_dataset.pyx":198
  *         i = 0
  * 
  *         while idx < len(self.neighbors) and i < self.batch_size:             # <<<<<<<<<<<<<<
@@ -5543,7 +5525,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  *             neighbor_idx = self.perm[idx]
  */
   while (1) {
-    if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 203, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 198, __pyx_L1_error)}
     __pyx_t_2 = __Pyx_MemoryView_Len(__pyx_v_self->neighbors); 
     __pyx_t_3 = ((__pyx_v_idx < __pyx_t_2) != 0);
     if (__pyx_t_3) {
@@ -5556,7 +5538,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
     __pyx_L5_bool_binop_done:;
     if (!__pyx_t_1) break;
 
-    /* "hype/adjacency_matrix_dataset.pyx":204
+    /* "hype/adjacency_matrix_dataset.pyx":199
  * 
  *         while idx < len(self.neighbors) and i < self.batch_size:
  *             ntries = 0             # <<<<<<<<<<<<<<
@@ -5565,61 +5547,61 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
     __pyx_v_ntries = 0;
 
-    /* "hype/adjacency_matrix_dataset.pyx":205
+    /* "hype/adjacency_matrix_dataset.pyx":200
  *         while idx < len(self.neighbors) and i < self.batch_size:
  *             ntries = 0
  *             neighbor_idx = self.perm[idx]             # <<<<<<<<<<<<<<
  *             nodeidx = self.binary_search(neighbor_idx, self.offsets, 0, nnodes-1, True)
  * 
  */
-    if (unlikely(!__pyx_v_self->perm.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 205, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_self->perm.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 200, __pyx_L1_error)}
     __pyx_t_4 = __pyx_v_idx;
     __pyx_v_neighbor_idx = (*((long *) ( /* dim=0 */ (__pyx_v_self->perm.data + __pyx_t_4 * __pyx_v_self->perm.strides[0]) )));
 
-    /* "hype/adjacency_matrix_dataset.pyx":206
+    /* "hype/adjacency_matrix_dataset.pyx":201
  *             ntries = 0
  *             neighbor_idx = self.perm[idx]
  *             nodeidx = self.binary_search(neighbor_idx, self.offsets, 0, nnodes-1, True)             # <<<<<<<<<<<<<<
  * 
  *             # nodes for positive sample
  */
-    if (unlikely(!__pyx_v_self->offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 206, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_self->offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 201, __pyx_L1_error)}
     __pyx_v_nodeidx = ((struct __pyx_vtabstruct_4hype_24adjacency_matrix_dataset_AdjacencyDataset *)__pyx_v_self->__pyx_vtab)->binary_search(__pyx_v_self, __pyx_v_neighbor_idx, __pyx_v_self->offsets, 0, (__pyx_v_nnodes - 1), 1);
 
-    /* "hype/adjacency_matrix_dataset.pyx":209
+    /* "hype/adjacency_matrix_dataset.pyx":204
  * 
  *             # nodes for positive sample
  *             t = self.ids[nodeidx]             # <<<<<<<<<<<<<<
  *             h = self.neighbors[neighbor_idx]
  * 
  */
-    if (unlikely(!__pyx_v_self->ids.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 209, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_self->ids.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 204, __pyx_L1_error)}
     __pyx_t_4 = __pyx_v_nodeidx;
     __pyx_v_t = (*((long *) ( /* dim=0 */ (__pyx_v_self->ids.data + __pyx_t_4 * __pyx_v_self->ids.strides[0]) )));
 
-    /* "hype/adjacency_matrix_dataset.pyx":210
+    /* "hype/adjacency_matrix_dataset.pyx":205
  *             # nodes for positive sample
  *             t = self.ids[nodeidx]
  *             h = self.neighbors[neighbor_idx]             # <<<<<<<<<<<<<<
  * 
  *             # left and right boundaries for this node's neighbors
  */
-    if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 210, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 205, __pyx_L1_error)}
     __pyx_t_4 = __pyx_v_neighbor_idx;
     __pyx_v_h = (*((long *) ( /* dim=0 */ (__pyx_v_self->neighbors.data + __pyx_t_4 * __pyx_v_self->neighbors.strides[0]) )));
 
-    /* "hype/adjacency_matrix_dataset.pyx":213
+    /* "hype/adjacency_matrix_dataset.pyx":208
  * 
  *             # left and right boundaries for this node's neighbors
  *             l = self.offsets[nodeidx]             # <<<<<<<<<<<<<<
  *             r = self.offsets[nodeidx + 1] - 1 if nodeidx + 1 < nnodes else len(self.neighbors) - 1
  * 
  */
-    if (unlikely(!__pyx_v_self->offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 213, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_self->offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 208, __pyx_L1_error)}
     __pyx_t_4 = __pyx_v_nodeidx;
     __pyx_v_l = (*((long *) ( /* dim=0 */ (__pyx_v_self->offsets.data + __pyx_t_4 * __pyx_v_self->offsets.strides[0]) )));
 
-    /* "hype/adjacency_matrix_dataset.pyx":214
+    /* "hype/adjacency_matrix_dataset.pyx":209
  *             # left and right boundaries for this node's neighbors
  *             l = self.offsets[nodeidx]
  *             r = self.offsets[nodeidx + 1] - 1 if nodeidx + 1 < nnodes else len(self.neighbors) - 1             # <<<<<<<<<<<<<<
@@ -5627,17 +5609,17 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  *             batch[i, 0] = t
  */
     if ((((__pyx_v_nodeidx + 1) < __pyx_v_nnodes) != 0)) {
-      if (unlikely(!__pyx_v_self->offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 214, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_self->offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 209, __pyx_L1_error)}
       __pyx_t_4 = (__pyx_v_nodeidx + 1);
       __pyx_t_5 = ((*((long *) ( /* dim=0 */ (__pyx_v_self->offsets.data + __pyx_t_4 * __pyx_v_self->offsets.strides[0]) ))) - 1);
     } else {
-      if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 214, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 209, __pyx_L1_error)}
       __pyx_t_2 = __Pyx_MemoryView_Len(__pyx_v_self->neighbors); 
       __pyx_t_5 = (__pyx_t_2 - 1);
     }
     __pyx_v_r = __pyx_t_5;
 
-    /* "hype/adjacency_matrix_dataset.pyx":216
+    /* "hype/adjacency_matrix_dataset.pyx":211
  *             r = self.offsets[nodeidx + 1] - 1 if nodeidx + 1 < nnodes else len(self.neighbors) - 1
  * 
  *             batch[i, 0] = t             # <<<<<<<<<<<<<<
@@ -5648,7 +5630,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
     __pyx_t_6 = 0;
     *((long *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_batch.data + __pyx_t_4 * __pyx_v_batch.strides[0]) ) + __pyx_t_6 * __pyx_v_batch.strides[1]) )) = __pyx_v_t;
 
-    /* "hype/adjacency_matrix_dataset.pyx":217
+    /* "hype/adjacency_matrix_dataset.pyx":212
  * 
  *             batch[i, 0] = t
  *             batch[i, 1] = h             # <<<<<<<<<<<<<<
@@ -5659,7 +5641,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
     __pyx_t_4 = 1;
     *((long *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_batch.data + __pyx_t_6 * __pyx_v_batch.strides[0]) ) + __pyx_t_4 * __pyx_v_batch.strides[1]) )) = __pyx_v_h;
 
-    /* "hype/adjacency_matrix_dataset.pyx":218
+    /* "hype/adjacency_matrix_dataset.pyx":213
  *             batch[i, 0] = t
  *             batch[i, 1] = h
  *             ixptr = 2             # <<<<<<<<<<<<<<
@@ -5668,7 +5650,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
     __pyx_v_ixptr = 2;
 
-    /* "hype/adjacency_matrix_dataset.pyx":219
+    /* "hype/adjacency_matrix_dataset.pyx":214
  *             batch[i, 1] = h
  *             ixptr = 2
  *             negs = unordered_set[long]()             # <<<<<<<<<<<<<<
@@ -5685,11 +5667,11 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
       #ifdef WITH_THREAD
       __Pyx_PyGILState_Release(__pyx_gilstate_save);
       #endif
-      __PYX_ERR(0, 219, __pyx_L1_error)
+      __PYX_ERR(0, 214, __pyx_L1_error)
     }
     __pyx_v_negs = __pyx_t_7;
 
-    /* "hype/adjacency_matrix_dataset.pyx":221
+    /* "hype/adjacency_matrix_dataset.pyx":216
  *             negs = unordered_set[long]()
  * 
  *             while ntries < self.max_tries and ixptr < self._nnegatives() + 2:             # <<<<<<<<<<<<<<
@@ -5708,7 +5690,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
       __pyx_L9_bool_binop_done:;
       if (!__pyx_t_1) break;
 
-      /* "hype/adjacency_matrix_dataset.pyx":222
+      /* "hype/adjacency_matrix_dataset.pyx":217
  * 
  *             while ntries < self.max_tries and ixptr < self._nnegatives() + 2:
  *                 rand_node = self.random_node(seed)             # <<<<<<<<<<<<<<
@@ -5717,17 +5699,17 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
       __pyx_v_rand_node = ((struct __pyx_vtabstruct_4hype_24adjacency_matrix_dataset_AdjacencyDataset *)__pyx_v_self->__pyx_vtab)->random_node(__pyx_v_self, __pyx_v_seed);
 
-      /* "hype/adjacency_matrix_dataset.pyx":223
+      /* "hype/adjacency_matrix_dataset.pyx":218
  *             while ntries < self.max_tries and ixptr < self._nnegatives() + 2:
  *                 rand_node = self.random_node(seed)
  *                 rnodeidx = self.binary_search(rand_node, self.neighbors, l, r, False)             # <<<<<<<<<<<<<<
  *                 if rand_node != t and (rnodeidx == -1 or self.weights[rnodeidx] < self.weights[neighbor_idx]):
  *                     if negs.find(rand_node) == negs.end():
  */
-      if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 223, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_self->neighbors.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 218, __pyx_L1_error)}
       __pyx_v_rnodeidx = ((struct __pyx_vtabstruct_4hype_24adjacency_matrix_dataset_AdjacencyDataset *)__pyx_v_self->__pyx_vtab)->binary_search(__pyx_v_self, __pyx_v_rand_node, __pyx_v_self->neighbors, __pyx_v_l, __pyx_v_r, 0);
 
-      /* "hype/adjacency_matrix_dataset.pyx":224
+      /* "hype/adjacency_matrix_dataset.pyx":219
  *                 rand_node = self.random_node(seed)
  *                 rnodeidx = self.binary_search(rand_node, self.neighbors, l, r, False)
  *                 if rand_node != t and (rnodeidx == -1 or self.weights[rnodeidx] < self.weights[neighbor_idx]):             # <<<<<<<<<<<<<<
@@ -5746,16 +5728,16 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
         __pyx_t_1 = __pyx_t_3;
         goto __pyx_L12_bool_binop_done;
       }
-      if (unlikely(!__pyx_v_self->weights.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 224, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_self->weights.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 219, __pyx_L1_error)}
       __pyx_t_4 = __pyx_v_rnodeidx;
-      if (unlikely(!__pyx_v_self->weights.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 224, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_self->weights.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 219, __pyx_L1_error)}
       __pyx_t_6 = __pyx_v_neighbor_idx;
       __pyx_t_3 = (((*((double *) ( /* dim=0 */ (__pyx_v_self->weights.data + __pyx_t_4 * __pyx_v_self->weights.strides[0]) ))) < (*((double *) ( /* dim=0 */ (__pyx_v_self->weights.data + __pyx_t_6 * __pyx_v_self->weights.strides[0]) )))) != 0);
       __pyx_t_1 = __pyx_t_3;
       __pyx_L12_bool_binop_done:;
       if (__pyx_t_1) {
 
-        /* "hype/adjacency_matrix_dataset.pyx":225
+        /* "hype/adjacency_matrix_dataset.pyx":220
  *                 rnodeidx = self.binary_search(rand_node, self.neighbors, l, r, False)
  *                 if rand_node != t and (rnodeidx == -1 or self.weights[rnodeidx] < self.weights[neighbor_idx]):
  *                     if negs.find(rand_node) == negs.end():             # <<<<<<<<<<<<<<
@@ -5765,7 +5747,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
         __pyx_t_1 = ((__pyx_v_negs.find(__pyx_v_rand_node) == __pyx_v_negs.end()) != 0);
         if (__pyx_t_1) {
 
-          /* "hype/adjacency_matrix_dataset.pyx":226
+          /* "hype/adjacency_matrix_dataset.pyx":221
  *                 if rand_node != t and (rnodeidx == -1 or self.weights[rnodeidx] < self.weights[neighbor_idx]):
  *                     if negs.find(rand_node) == negs.end():
  *                         batch[i, ixptr] = rand_node             # <<<<<<<<<<<<<<
@@ -5776,7 +5758,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
           __pyx_t_4 = __pyx_v_ixptr;
           *((long *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_batch.data + __pyx_t_6 * __pyx_v_batch.strides[0]) ) + __pyx_t_4 * __pyx_v_batch.strides[1]) )) = __pyx_v_rand_node;
 
-          /* "hype/adjacency_matrix_dataset.pyx":227
+          /* "hype/adjacency_matrix_dataset.pyx":222
  *                     if negs.find(rand_node) == negs.end():
  *                         batch[i, ixptr] = rand_node
  *                         ixptr = ixptr + 1             # <<<<<<<<<<<<<<
@@ -5785,7 +5767,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
           __pyx_v_ixptr = (__pyx_v_ixptr + 1);
 
-          /* "hype/adjacency_matrix_dataset.pyx":228
+          /* "hype/adjacency_matrix_dataset.pyx":223
  *                         batch[i, ixptr] = rand_node
  *                         ixptr = ixptr + 1
  *                         negs.insert(rand_node)             # <<<<<<<<<<<<<<
@@ -5794,7 +5776,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
           (void)(__pyx_v_negs.insert(__pyx_v_rand_node));
 
-          /* "hype/adjacency_matrix_dataset.pyx":225
+          /* "hype/adjacency_matrix_dataset.pyx":220
  *                 rnodeidx = self.binary_search(rand_node, self.neighbors, l, r, False)
  *                 if rand_node != t and (rnodeidx == -1 or self.weights[rnodeidx] < self.weights[neighbor_idx]):
  *                     if negs.find(rand_node) == negs.end():             # <<<<<<<<<<<<<<
@@ -5803,7 +5785,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
         }
 
-        /* "hype/adjacency_matrix_dataset.pyx":224
+        /* "hype/adjacency_matrix_dataset.pyx":219
  *                 rand_node = self.random_node(seed)
  *                 rnodeidx = self.binary_search(rand_node, self.neighbors, l, r, False)
  *                 if rand_node != t and (rnodeidx == -1 or self.weights[rnodeidx] < self.weights[neighbor_idx]):             # <<<<<<<<<<<<<<
@@ -5812,7 +5794,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
       }
 
-      /* "hype/adjacency_matrix_dataset.pyx":229
+      /* "hype/adjacency_matrix_dataset.pyx":224
  *                         ixptr = ixptr + 1
  *                         negs.insert(rand_node)
  *                 ntries = ntries + 1             # <<<<<<<<<<<<<<
@@ -5822,7 +5804,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
       __pyx_v_ntries = (__pyx_v_ntries + 1);
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":231
+    /* "hype/adjacency_matrix_dataset.pyx":226
  *                 ntries = ntries + 1
  * 
  *             if ixptr == 2:             # <<<<<<<<<<<<<<
@@ -5832,7 +5814,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
     __pyx_t_1 = ((__pyx_v_ixptr == 2) != 0);
     if (__pyx_t_1) {
 
-      /* "hype/adjacency_matrix_dataset.pyx":232
+      /* "hype/adjacency_matrix_dataset.pyx":227
  * 
  *             if ixptr == 2:
  *                 batch[i, ixptr] = t             # <<<<<<<<<<<<<<
@@ -5843,7 +5825,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
       __pyx_t_6 = __pyx_v_ixptr;
       *((long *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_batch.data + __pyx_t_4 * __pyx_v_batch.strides[0]) ) + __pyx_t_6 * __pyx_v_batch.strides[1]) )) = __pyx_v_t;
 
-      /* "hype/adjacency_matrix_dataset.pyx":233
+      /* "hype/adjacency_matrix_dataset.pyx":228
  *             if ixptr == 2:
  *                 batch[i, ixptr] = t
  *                 ixptr += 1             # <<<<<<<<<<<<<<
@@ -5852,7 +5834,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
       __pyx_v_ixptr = (__pyx_v_ixptr + 1);
 
-      /* "hype/adjacency_matrix_dataset.pyx":231
+      /* "hype/adjacency_matrix_dataset.pyx":226
  *                 ntries = ntries + 1
  * 
  *             if ixptr == 2:             # <<<<<<<<<<<<<<
@@ -5861,7 +5843,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":235
+    /* "hype/adjacency_matrix_dataset.pyx":230
  *                 ixptr += 1
  * 
  *             while ixptr < self._nnegatives() + 2:             # <<<<<<<<<<<<<<
@@ -5872,7 +5854,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
       __pyx_t_1 = ((__pyx_v_ixptr < (((struct __pyx_vtabstruct_4hype_24adjacency_matrix_dataset_AdjacencyDataset *)__pyx_v_self->__pyx_vtab)->_nnegatives(__pyx_v_self) + 2)) != 0);
       if (!__pyx_t_1) break;
 
-      /* "hype/adjacency_matrix_dataset.pyx":236
+      /* "hype/adjacency_matrix_dataset.pyx":231
  * 
  *             while ixptr < self._nnegatives() + 2:
  *                 batch[i, ixptr] = batch[i, 2 + <long>(<double>rand_r(seed)/RAND_MAX*(ixptr-2))]             # <<<<<<<<<<<<<<
@@ -5885,7 +5867,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
       __pyx_t_9 = __pyx_v_ixptr;
       *((long *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_batch.data + __pyx_t_8 * __pyx_v_batch.strides[0]) ) + __pyx_t_9 * __pyx_v_batch.strides[1]) )) = (*((long *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_batch.data + __pyx_t_6 * __pyx_v_batch.strides[0]) ) + __pyx_t_4 * __pyx_v_batch.strides[1]) )));
 
-      /* "hype/adjacency_matrix_dataset.pyx":237
+      /* "hype/adjacency_matrix_dataset.pyx":232
  *             while ixptr < self._nnegatives() + 2:
  *                 batch[i, ixptr] = batch[i, 2 + <long>(<double>rand_r(seed)/RAND_MAX*(ixptr-2))]
  *                 ixptr = ixptr + 1             # <<<<<<<<<<<<<<
@@ -5895,7 +5877,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
       __pyx_v_ixptr = (__pyx_v_ixptr + 1);
     }
 
-    /* "hype/adjacency_matrix_dataset.pyx":239
+    /* "hype/adjacency_matrix_dataset.pyx":234
  *                 ixptr = ixptr + 1
  * 
  *             idx = idx + 1             # <<<<<<<<<<<<<<
@@ -5904,7 +5886,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
  */
     __pyx_v_idx = (__pyx_v_idx + 1);
 
-    /* "hype/adjacency_matrix_dataset.pyx":240
+    /* "hype/adjacency_matrix_dataset.pyx":235
  * 
  *             idx = idx + 1
  *             i = i + 1             # <<<<<<<<<<<<<<
@@ -5914,7 +5896,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
     __pyx_v_i = (__pyx_v_i + 1);
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":241
+  /* "hype/adjacency_matrix_dataset.pyx":236
  *             idx = idx + 1
  *             i = i + 1
  *         return i             # <<<<<<<<<<<<<<
@@ -5924,7 +5906,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
   __pyx_r = __pyx_v_i;
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":196
+  /* "hype/adjacency_matrix_dataset.pyx":191
  *         return 0 if approx else -1
  * 
  *     cdef long _getbatch(self, long idx, long[:,:] batch, unsigned long* seed) nogil:             # <<<<<<<<<<<<<<
@@ -5940,7 +5922,7 @@ static long __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatc
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":243
+/* "hype/adjacency_matrix_dataset.pyx":238
  *         return i
  * 
  *     def nnegatives(self):             # <<<<<<<<<<<<<<
@@ -5970,7 +5952,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_18
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("nnegatives", 0);
 
-  /* "hype/adjacency_matrix_dataset.pyx":244
+  /* "hype/adjacency_matrix_dataset.pyx":239
  * 
  *     def nnegatives(self):
  *         return self._nnegatives()             # <<<<<<<<<<<<<<
@@ -5978,13 +5960,13 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_18
  *     cdef int _nnegatives(self) nogil:
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(((struct __pyx_vtabstruct_4hype_24adjacency_matrix_dataset_AdjacencyDataset *)__pyx_v_self->__pyx_vtab)->_nnegatives(__pyx_v_self)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 244, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(((struct __pyx_vtabstruct_4hype_24adjacency_matrix_dataset_AdjacencyDataset *)__pyx_v_self->__pyx_vtab)->_nnegatives(__pyx_v_self)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 239, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":243
+  /* "hype/adjacency_matrix_dataset.pyx":238
  *         return i
  * 
  *     def nnegatives(self):             # <<<<<<<<<<<<<<
@@ -6003,7 +5985,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_18
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":246
+/* "hype/adjacency_matrix_dataset.pyx":241
  *         return self._nnegatives()
  * 
  *     cdef int _nnegatives(self) nogil:             # <<<<<<<<<<<<<<
@@ -6015,7 +5997,7 @@ static int __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__nnegativ
   int __pyx_r;
   int __pyx_t_1;
 
-  /* "hype/adjacency_matrix_dataset.pyx":247
+  /* "hype/adjacency_matrix_dataset.pyx":242
  * 
  *     cdef int _nnegatives(self) nogil:
  *         if self.burnin:             # <<<<<<<<<<<<<<
@@ -6025,7 +6007,7 @@ static int __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__nnegativ
   __pyx_t_1 = (__pyx_v_self->burnin != 0);
   if (__pyx_t_1) {
 
-    /* "hype/adjacency_matrix_dataset.pyx":248
+    /* "hype/adjacency_matrix_dataset.pyx":243
  *     cdef int _nnegatives(self) nogil:
  *         if self.burnin:
  *             return int(self.neg_multiplier * self.nnegs)             # <<<<<<<<<<<<<<
@@ -6035,7 +6017,7 @@ static int __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__nnegativ
     __pyx_r = ((int)(__pyx_v_self->neg_multiplier * __pyx_v_self->nnegs));
     goto __pyx_L0;
 
-    /* "hype/adjacency_matrix_dataset.pyx":247
+    /* "hype/adjacency_matrix_dataset.pyx":242
  * 
  *     cdef int _nnegatives(self) nogil:
  *         if self.burnin:             # <<<<<<<<<<<<<<
@@ -6044,7 +6026,7 @@ static int __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__nnegativ
  */
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":250
+  /* "hype/adjacency_matrix_dataset.pyx":245
  *             return int(self.neg_multiplier * self.nnegs)
  *         else:
  *             return self.nnegs             # <<<<<<<<<<<<<<
@@ -6054,7 +6036,7 @@ static int __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__nnegativ
     goto __pyx_L0;
   }
 
-  /* "hype/adjacency_matrix_dataset.pyx":246
+  /* "hype/adjacency_matrix_dataset.pyx":241
  *         return self._nnegatives()
  * 
  *     cdef int _nnegatives(self) nogil:             # <<<<<<<<<<<<<<
@@ -6067,7 +6049,7 @@ static int __pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__nnegativ
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":30
+/* "hype/adjacency_matrix_dataset.pyx":25
  * 
  * cdef class AdjacencyDataset:
  *     cdef public bool burnin             # <<<<<<<<<<<<<<
@@ -6097,7 +6079,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6b
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->burnin); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->burnin); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -6135,7 +6117,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6burnin_
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_value); if (unlikely((__pyx_t_1 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_value); if (unlikely((__pyx_t_1 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 25, __pyx_L1_error)
   __pyx_v_self->burnin = __pyx_t_1;
 
   /* function exit code */
@@ -6149,7 +6131,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6burnin_
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":31
+/* "hype/adjacency_matrix_dataset.pyx":26
  * cdef class AdjacencyDataset:
  *     cdef public bool burnin
  *     cdef public int N, qsize, qsamples, qmisses             # <<<<<<<<<<<<<<
@@ -6179,7 +6161,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_1N
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->N); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->N); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -6217,7 +6199,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_1N_2__se
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 26, __pyx_L1_error)
   __pyx_v_self->N = __pyx_t_1;
 
   /* function exit code */
@@ -6253,7 +6235,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_5q
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qsize); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qsize); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -6291,7 +6273,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_5qsize_2
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 26, __pyx_L1_error)
   __pyx_v_self->qsize = __pyx_t_1;
 
   /* function exit code */
@@ -6327,7 +6309,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_8q
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qsamples); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qsamples); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -6365,7 +6347,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_8qsample
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 26, __pyx_L1_error)
   __pyx_v_self->qsamples = __pyx_t_1;
 
   /* function exit code */
@@ -6401,7 +6383,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_7q
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qmisses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->qmisses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -6439,7 +6421,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_7qmisses
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 26, __pyx_L1_error)
   __pyx_v_self->qmisses = __pyx_t_1;
 
   /* function exit code */
@@ -6453,7 +6435,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_7qmisses
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":32
+/* "hype/adjacency_matrix_dataset.pyx":27
  *     cdef public bool burnin
  *     cdef public int N, qsize, qsamples, qmisses
  *     cdef public npc.ndarray objects, counts             # <<<<<<<<<<<<<<
@@ -6511,7 +6493,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_7objects
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  if (!(likely(((__pyx_v_value) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_value, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 32, __pyx_L1_error)
+  if (!(likely(((__pyx_v_value) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_value, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 27, __pyx_L1_error)
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
@@ -6611,7 +6593,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6counts_
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  if (!(likely(((__pyx_v_value) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_value, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 32, __pyx_L1_error)
+  if (!(likely(((__pyx_v_value) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_value, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 27, __pyx_L1_error)
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
@@ -6661,7 +6643,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_6counts_
   return __pyx_r;
 }
 
-/* "hype/adjacency_matrix_dataset.pyx":33
+/* "hype/adjacency_matrix_dataset.pyx":28
  *     cdef public int N, qsize, qsamples, qmisses
  *     cdef public npc.ndarray objects, counts
  *     cdef public double neg_multiplier, _sample_dampening             # <<<<<<<<<<<<<<
@@ -6691,7 +6673,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_14
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->neg_multiplier); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->neg_multiplier); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -6729,7 +6711,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_14neg_mu
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __pyx_PyFloat_AsDouble(__pyx_v_value); if (unlikely((__pyx_t_1 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_1 = __pyx_PyFloat_AsDouble(__pyx_v_value); if (unlikely((__pyx_t_1 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 28, __pyx_L1_error)
   __pyx_v_self->neg_multiplier = __pyx_t_1;
 
   /* function exit code */
@@ -6765,7 +6747,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_17
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->_sample_dampening); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->_sample_dampening); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -6803,7 +6785,7 @@ static int __pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_17_sampl
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __pyx_PyFloat_AsDouble(__pyx_v_value); if (unlikely((__pyx_t_1 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_1 = __pyx_PyFloat_AsDouble(__pyx_v_value); if (unlikely((__pyx_t_1 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 28, __pyx_L1_error)
   __pyx_v_self->_sample_dampening = __pyx_t_1;
 
   /* function exit code */
@@ -6930,7 +6912,7 @@ static PyObject *__pyx_pf_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_22
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":742
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -6947,7 +6929,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":743
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":735
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -6955,13 +6937,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 743, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 735, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":742
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -6980,7 +6962,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":745
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -6997,7 +6979,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":746
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":738
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -7005,13 +6987,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 746, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 738, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":745
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -7030,7 +7012,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":748
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -7047,7 +7029,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":749
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":741
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -7055,13 +7037,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 749, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 741, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":748
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -7080,7 +7062,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":751
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -7097,7 +7079,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":752
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":744
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -7105,13 +7087,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 752, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 744, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":751
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -7130,7 +7112,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":754
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -7147,7 +7129,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":755
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":747
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -7155,13 +7137,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 755, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 747, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":754
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -7180,7 +7162,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":757
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -7194,7 +7176,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":758
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -7204,7 +7186,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":759
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":751
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -7216,7 +7198,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":758
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -7225,12 +7207,12 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":761
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":753
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
  * 
- * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:
+ * 
  */
   /*else*/ {
     __Pyx_XDECREF(__pyx_r);
@@ -7239,7 +7221,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":757
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -7254,756 +7236,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":763
- *         return ()
- * 
- * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
- *     # Recursive utility function used in __getbuffer__ to get format
- *     # string. The new location in the format string is returned.
- */
-
-static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx_v_descr, char *__pyx_v_f, char *__pyx_v_end, int *__pyx_v_offset) {
-  PyArray_Descr *__pyx_v_child = 0;
-  int __pyx_v_endian_detector;
-  int __pyx_v_little_endian;
-  PyObject *__pyx_v_fields = 0;
-  PyObject *__pyx_v_childname = NULL;
-  PyObject *__pyx_v_new_offset = NULL;
-  PyObject *__pyx_v_t = NULL;
-  char *__pyx_r;
-  __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
-  Py_ssize_t __pyx_t_2;
-  PyObject *__pyx_t_3 = NULL;
-  PyObject *__pyx_t_4 = NULL;
-  int __pyx_t_5;
-  int __pyx_t_6;
-  int __pyx_t_7;
-  long __pyx_t_8;
-  char *__pyx_t_9;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("_util_dtypestring", 0);
-
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":768
- * 
- *     cdef dtype child
- *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
- *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
- *     cdef tuple fields
- */
-  __pyx_v_endian_detector = 1;
-
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":769
- *     cdef dtype child
- *     cdef int endian_detector = 1
- *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
- *     cdef tuple fields
- * 
- */
-  __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
-
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":772
- *     cdef tuple fields
- * 
- *     for childname in descr.names:             # <<<<<<<<<<<<<<
- *         fields = descr.fields[childname]
- *         child, new_offset = fields
- */
-  if (unlikely(__pyx_v_descr->names == Py_None)) {
-    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(2, 772, __pyx_L1_error)
-  }
-  __pyx_t_1 = __pyx_v_descr->names; __Pyx_INCREF(__pyx_t_1); __pyx_t_2 = 0;
-  for (;;) {
-    if (__pyx_t_2 >= PyTuple_GET_SIZE(__pyx_t_1)) break;
-    #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-    __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_2); __Pyx_INCREF(__pyx_t_3); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(2, 772, __pyx_L1_error)
-    #else
-    __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 772, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    #endif
-    __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
-    __pyx_t_3 = 0;
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":773
- * 
- *     for childname in descr.names:
- *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
- *         child, new_offset = fields
- * 
- */
-    if (unlikely(__pyx_v_descr->fields == Py_None)) {
-      PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(2, 773, __pyx_L1_error)
-    }
-    __pyx_t_3 = __Pyx_PyDict_GetItem(__pyx_v_descr->fields, __pyx_v_childname); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 773, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    if (!(likely(PyTuple_CheckExact(__pyx_t_3))||((__pyx_t_3) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_t_3)->tp_name), 0))) __PYX_ERR(2, 773, __pyx_L1_error)
-    __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
-    __pyx_t_3 = 0;
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":774
- *     for childname in descr.names:
- *         fields = descr.fields[childname]
- *         child, new_offset = fields             # <<<<<<<<<<<<<<
- * 
- *         if (end - f) - <int>(new_offset - offset[0]) < 15:
- */
-    if (likely(__pyx_v_fields != Py_None)) {
-      PyObject* sequence = __pyx_v_fields;
-      Py_ssize_t size = __Pyx_PySequence_SIZE(sequence);
-      if (unlikely(size != 2)) {
-        if (size > 2) __Pyx_RaiseTooManyValuesError(2);
-        else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-        __PYX_ERR(2, 774, __pyx_L1_error)
-      }
-      #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1); 
-      __Pyx_INCREF(__pyx_t_3);
-      __Pyx_INCREF(__pyx_t_4);
-      #else
-      __pyx_t_3 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 774, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 774, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      #endif
-    } else {
-      __Pyx_RaiseNoneNotIterableError(); __PYX_ERR(2, 774, __pyx_L1_error)
-    }
-    if (!(likely(((__pyx_t_3) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_3, __pyx_ptype_5numpy_dtype))))) __PYX_ERR(2, 774, __pyx_L1_error)
-    __Pyx_XDECREF_SET(__pyx_v_child, ((PyArray_Descr *)__pyx_t_3));
-    __pyx_t_3 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
-    __pyx_t_4 = 0;
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":776
- *         child, new_offset = fields
- * 
- *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
- *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
- */
-    __pyx_t_4 = __Pyx_PyInt_From_int((__pyx_v_offset[0])); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 776, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = PyNumber_Subtract(__pyx_v_new_offset, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 776, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_3); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 776, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
-    if (unlikely(__pyx_t_6)) {
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":777
- * 
- *         if (end - f) - <int>(new_offset - offset[0]) < 15:
- *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
- * 
- *         if ((child.byteorder == c'>' and little_endian) or
- */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 777, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_Raise(__pyx_t_3, 0, 0, 0);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __PYX_ERR(2, 777, __pyx_L1_error)
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":776
- *         child, new_offset = fields
- * 
- *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
- *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
- */
-    }
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":779
- *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
- *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
- *             (child.byteorder == c'<' and not little_endian)):
- *             raise ValueError(u"Non-native byte order not supported")
- */
-    __pyx_t_7 = ((__pyx_v_child->byteorder == '>') != 0);
-    if (!__pyx_t_7) {
-      goto __pyx_L8_next_or;
-    } else {
-    }
-    __pyx_t_7 = (__pyx_v_little_endian != 0);
-    if (!__pyx_t_7) {
-    } else {
-      __pyx_t_6 = __pyx_t_7;
-      goto __pyx_L7_bool_binop_done;
-    }
-    __pyx_L8_next_or:;
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":780
- * 
- *         if ((child.byteorder == c'>' and little_endian) or
- *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
- *             raise ValueError(u"Non-native byte order not supported")
- *             # One could encode it in the format string and have Cython
- */
-    __pyx_t_7 = ((__pyx_v_child->byteorder == '<') != 0);
-    if (__pyx_t_7) {
-    } else {
-      __pyx_t_6 = __pyx_t_7;
-      goto __pyx_L7_bool_binop_done;
-    }
-    __pyx_t_7 = ((!(__pyx_v_little_endian != 0)) != 0);
-    __pyx_t_6 = __pyx_t_7;
-    __pyx_L7_bool_binop_done:;
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":779
- *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
- *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
- *             (child.byteorder == c'<' and not little_endian)):
- *             raise ValueError(u"Non-native byte order not supported")
- */
-    if (unlikely(__pyx_t_6)) {
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":781
- *         if ((child.byteorder == c'>' and little_endian) or
- *             (child.byteorder == c'<' and not little_endian)):
- *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
- *             # One could encode it in the format string and have Cython
- *             # complain instead, BUT: < and > in format strings also imply
- */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 781, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_Raise(__pyx_t_3, 0, 0, 0);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __PYX_ERR(2, 781, __pyx_L1_error)
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":779
- *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
- *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
- *             (child.byteorder == c'<' and not little_endian)):
- *             raise ValueError(u"Non-native byte order not supported")
- */
-    }
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":791
- * 
- *         # Output padding bytes
- *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
- *             f[0] = 120 # "x"; pad byte
- *             f += 1
- */
-    while (1) {
-      __pyx_t_3 = __Pyx_PyInt_From_int((__pyx_v_offset[0])); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 791, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_t_3, __pyx_v_new_offset, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 791, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 791, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (!__pyx_t_6) break;
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":792
- *         # Output padding bytes
- *         while offset[0] < new_offset:
- *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
- *             f += 1
- *             offset[0] += 1
- */
-      (__pyx_v_f[0]) = 0x78;
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":793
- *         while offset[0] < new_offset:
- *             f[0] = 120 # "x"; pad byte
- *             f += 1             # <<<<<<<<<<<<<<
- *             offset[0] += 1
- * 
- */
-      __pyx_v_f = (__pyx_v_f + 1);
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":794
- *             f[0] = 120 # "x"; pad byte
- *             f += 1
- *             offset[0] += 1             # <<<<<<<<<<<<<<
- * 
- *         offset[0] += child.itemsize
- */
-      __pyx_t_8 = 0;
-      (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
-    }
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":796
- *             offset[0] += 1
- * 
- *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
- * 
- *         if not PyDataType_HASFIELDS(child):
- */
-    __pyx_t_8 = 0;
-    (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":798
- *         offset[0] += child.itemsize
- * 
- *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
- *             t = child.type_num
- *             if end - f < 5:
- */
-    __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
-    if (__pyx_t_6) {
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":799
- * 
- *         if not PyDataType_HASFIELDS(child):
- *             t = child.type_num             # <<<<<<<<<<<<<<
- *             if end - f < 5:
- *                 raise RuntimeError(u"Format string allocated too short.")
- */
-      __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_child->type_num); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 799, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
-      __pyx_t_4 = 0;
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":800
- *         if not PyDataType_HASFIELDS(child):
- *             t = child.type_num
- *             if end - f < 5:             # <<<<<<<<<<<<<<
- *                 raise RuntimeError(u"Format string allocated too short.")
- * 
- */
-      __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
-      if (unlikely(__pyx_t_6)) {
-
-        /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":801
- *             t = child.type_num
- *             if end - f < 5:
- *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
- * 
- *             # Until ticket #99 is fixed, use integers to avoid warnings
- */
-        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 801, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_Raise(__pyx_t_4, 0, 0, 0);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __PYX_ERR(2, 801, __pyx_L1_error)
-
-        /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":800
- *         if not PyDataType_HASFIELDS(child):
- *             t = child.type_num
- *             if end - f < 5:             # <<<<<<<<<<<<<<
- *                 raise RuntimeError(u"Format string allocated too short.")
- * 
- */
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":804
- * 
- *             # Until ticket #99 is fixed, use integers to avoid warnings
- *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
- *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
- *             elif t == NPY_SHORT:       f[0] = 104 #"h"
- */
-      __pyx_t_4 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_BYTE); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 804, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_t, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 804, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 804, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 98;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":805
- *             # Until ticket #99 is fixed, use integers to avoid warnings
- *             if   t == NPY_BYTE:        f[0] =  98 #"b"
- *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
- *             elif t == NPY_SHORT:       f[0] = 104 #"h"
- *             elif t == NPY_USHORT:      f[0] =  72 #"H"
- */
-      __pyx_t_3 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_UBYTE); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 805, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_v_t, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 805, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 805, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 66;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":806
- *             if   t == NPY_BYTE:        f[0] =  98 #"b"
- *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
- *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
- *             elif t == NPY_USHORT:      f[0] =  72 #"H"
- *             elif t == NPY_INT:         f[0] = 105 #"i"
- */
-      __pyx_t_4 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_SHORT); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 806, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_t, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 806, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 806, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 0x68;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":807
- *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
- *             elif t == NPY_SHORT:       f[0] = 104 #"h"
- *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
- *             elif t == NPY_INT:         f[0] = 105 #"i"
- *             elif t == NPY_UINT:        f[0] =  73 #"I"
- */
-      __pyx_t_3 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_USHORT); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 807, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_v_t, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 807, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 807, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 72;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":808
- *             elif t == NPY_SHORT:       f[0] = 104 #"h"
- *             elif t == NPY_USHORT:      f[0] =  72 #"H"
- *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
- *             elif t == NPY_UINT:        f[0] =  73 #"I"
- *             elif t == NPY_LONG:        f[0] = 108 #"l"
- */
-      __pyx_t_4 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_INT); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 808, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_t, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 808, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 808, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 0x69;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":809
- *             elif t == NPY_USHORT:      f[0] =  72 #"H"
- *             elif t == NPY_INT:         f[0] = 105 #"i"
- *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
- *             elif t == NPY_LONG:        f[0] = 108 #"l"
- *             elif t == NPY_ULONG:       f[0] = 76  #"L"
- */
-      __pyx_t_3 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_UINT); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 809, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_v_t, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 809, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 809, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 73;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":810
- *             elif t == NPY_INT:         f[0] = 105 #"i"
- *             elif t == NPY_UINT:        f[0] =  73 #"I"
- *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
- *             elif t == NPY_ULONG:       f[0] = 76  #"L"
- *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
- */
-      __pyx_t_4 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_LONG); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 810, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_t, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 810, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 810, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 0x6C;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":811
- *             elif t == NPY_UINT:        f[0] =  73 #"I"
- *             elif t == NPY_LONG:        f[0] = 108 #"l"
- *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
- *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
- *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
- */
-      __pyx_t_3 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_ULONG); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 811, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_v_t, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 811, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 811, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 76;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":812
- *             elif t == NPY_LONG:        f[0] = 108 #"l"
- *             elif t == NPY_ULONG:       f[0] = 76  #"L"
- *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
- *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
- *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
- */
-      __pyx_t_4 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_LONGLONG); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 812, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_t, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 812, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 812, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 0x71;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":813
- *             elif t == NPY_ULONG:       f[0] = 76  #"L"
- *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
- *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
- *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
- *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
- */
-      __pyx_t_3 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_ULONGLONG); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 813, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_v_t, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 813, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 813, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 81;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":814
- *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
- *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
- *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
- *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
- *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
- */
-      __pyx_t_4 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_FLOAT); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 814, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_t, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 814, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 814, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 0x66;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":815
- *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
- *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
- *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
- *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
- *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
- */
-      __pyx_t_3 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_DOUBLE); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 815, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_v_t, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 815, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 815, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 0x64;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":816
- *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
- *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
- *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
- *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
- *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
- */
-      __pyx_t_4 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_LONGDOUBLE); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 816, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_t, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 816, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 816, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 0x67;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":817
- *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
- *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
- *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
- *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
- *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
- */
-      __pyx_t_3 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_CFLOAT); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 817, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_v_t, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 817, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 817, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 90;
-        (__pyx_v_f[1]) = 0x66;
-        __pyx_v_f = (__pyx_v_f + 1);
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":818
- *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
- *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
- *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
- *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
- *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
- */
-      __pyx_t_4 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_CDOUBLE); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 818, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_t, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 818, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 818, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 90;
-        (__pyx_v_f[1]) = 0x64;
-        __pyx_v_f = (__pyx_v_f + 1);
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":819
- *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
- *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
- *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
- *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
- *             else:
- */
-      __pyx_t_3 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_CLONGDOUBLE); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 819, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_v_t, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 819, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 819, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__pyx_t_6) {
-        (__pyx_v_f[0]) = 90;
-        (__pyx_v_f[1]) = 0x67;
-        __pyx_v_f = (__pyx_v_f + 1);
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":820
- *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
- *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
- *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
- *             else:
- *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
- */
-      __pyx_t_4 = __Pyx_PyInt_From_enum__NPY_TYPES(NPY_OBJECT); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 820, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_t, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 820, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(2, 820, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (likely(__pyx_t_6)) {
-        (__pyx_v_f[0]) = 79;
-        goto __pyx_L15;
-      }
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":822
- *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
- *             else:
- *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
- *             f += 1
- *         else:
- */
-      /*else*/ {
-        __pyx_t_3 = __Pyx_PyUnicode_FormatSafe(__pyx_kp_u_unknown_dtype_code_in_numpy_pxd, __pyx_v_t); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 822, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_ValueError, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 822, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __Pyx_Raise(__pyx_t_4, 0, 0, 0);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __PYX_ERR(2, 822, __pyx_L1_error)
-      }
-      __pyx_L15:;
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":823
- *             else:
- *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
- *             f += 1             # <<<<<<<<<<<<<<
- *         else:
- *             # Cython ignores struct boundary information ("T{...}"),
- */
-      __pyx_v_f = (__pyx_v_f + 1);
-
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":798
- *         offset[0] += child.itemsize
- * 
- *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
- *             t = child.type_num
- *             if end - f < 5:
- */
-      goto __pyx_L13;
-    }
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":827
- *             # Cython ignores struct boundary information ("T{...}"),
- *             # so don't output it
- *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
- *     return f
- * 
- */
-    /*else*/ {
-      __pyx_t_9 = __pyx_f_5numpy__util_dtypestring(__pyx_v_child, __pyx_v_f, __pyx_v_end, __pyx_v_offset); if (unlikely(__pyx_t_9 == ((char *)NULL))) __PYX_ERR(2, 827, __pyx_L1_error)
-      __pyx_v_f = __pyx_t_9;
-    }
-    __pyx_L13:;
-
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":772
- *     cdef tuple fields
- * 
- *     for childname in descr.names:             # <<<<<<<<<<<<<<
- *         fields = descr.fields[childname]
- *         child, new_offset = fields
- */
-  }
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":828
- *             # so don't output it
- *             f = _util_dtypestring(child, f, end, offset)
- *     return f             # <<<<<<<<<<<<<<
- * 
- * 
- */
-  __pyx_r = __pyx_v_f;
-  goto __pyx_L0;
-
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":763
- *         return ()
- * 
- * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
- *     # Recursive utility function used in __getbuffer__ to get format
- *     # string. The new location in the format string is returned.
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("numpy._util_dtypestring", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_child);
-  __Pyx_XDECREF(__pyx_v_fields);
-  __Pyx_XDECREF(__pyx_v_childname);
-  __Pyx_XDECREF(__pyx_v_new_offset);
-  __Pyx_XDECREF(__pyx_v_t);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":943
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":868
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -8015,7 +7248,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":944
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":869
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -8024,7 +7257,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":945
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":870
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -8033,7 +7266,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":943
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":868
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -8045,7 +7278,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":947
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":872
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -8060,7 +7293,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":948
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":873
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -8069,7 +7302,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":949
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":874
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -8079,7 +7312,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":950
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":875
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -8090,7 +7323,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":949
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":874
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -8099,7 +7332,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":951
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":876
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -8111,7 +7344,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":947
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":872
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -8126,7 +7359,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":955
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":880
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -8150,7 +7383,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":956
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":881
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8166,16 +7399,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":957
+      /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":882
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")
  */
-      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 957, __pyx_L3_error)
+      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 882, __pyx_L3_error)
 
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":956
+      /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":881
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8189,7 +7422,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":958
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":883
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -8199,28 +7432,28 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 958, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 883, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":959
+      /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":884
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 959, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 884, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 959, __pyx_L5_except_error)
+      __PYX_ERR(2, 884, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":956
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":881
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8235,7 +7468,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":955
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":880
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -8258,7 +7491,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":961
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":886
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -8282,7 +7515,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":962
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":887
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8298,16 +7531,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":963
+      /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":888
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 963, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 888, __pyx_L3_error)
 
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":962
+      /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":887
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8321,7 +7554,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":964
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":889
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -8331,28 +7564,28 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_umath", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 964, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 889, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":965
+      /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":890
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 965, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 890, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 965, __pyx_L5_except_error)
+      __PYX_ERR(2, 890, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":962
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":887
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8367,7 +7600,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":961
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":886
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -8390,7 +7623,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":967
+/* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":892
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -8414,7 +7647,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":968
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":893
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8430,16 +7663,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":969
+      /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":894
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 969, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 894, __pyx_L3_error)
 
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":968
+      /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":893
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8453,7 +7686,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":970
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":895
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -8463,28 +7696,28 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_ufunc", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 970, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 895, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":971
+      /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":896
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef extern from *:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 971, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 896, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 971, __pyx_L5_except_error)
+      __PYX_ERR(2, 896, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":968
+    /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":893
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8499,7 +7732,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":967
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":892
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -8725,7 +7958,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *         if itemsize <= 0:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 133, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 133, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -8757,7 +7990,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *         if not isinstance(format, bytes):
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 136, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 136, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -8884,7 +8117,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  * 
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 148, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 148, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -9158,7 +8391,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *             if self.dtype_is_object:
  */
-      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(1, 176, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(1, 176, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_Raise(__pyx_t_10, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -9402,7 +8635,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(stru
  *         info.buf = self.data
  *         info.len = self.len
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 192, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 192, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -10136,7 +9369,7 @@ static PyObject *__pyx_pf___pyx_array___reduce_cython__(CYTHON_UNUSED struct __p
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -10192,7 +9425,7 @@ static PyObject *__pyx_pf___pyx_array_2__setstate_cython__(CYTHON_UNUSED struct 
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -11902,7 +11135,7 @@ static int __pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_6__setit
  * 
  *         have_slices, index = _unellipsify(index, self.view.ndim)
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 418, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 418, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -12950,7 +12183,7 @@ static PyObject *__pyx_memoryview_convert_item_to_object(struct __pyx_memoryview
  *         else:
  *             if len(self.view.format) == 1:
  */
-      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__16, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 495, __pyx_L5_except_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 495, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_Raise(__pyx_t_6, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -13312,7 +12545,7 @@ static int __pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_8__getbu
  * 
  *         if flags & PyBUF_ND:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 520, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 520, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -13861,7 +13094,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_10memoryview_7strides___get__(st
  * 
  *         return tuple([stride for stride in self.view.strides[:self.view.ndim]])
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__18, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 570, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 570, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -13978,7 +13211,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_10memoryview_10suboffsets___get_
     __Pyx_XDECREF(__pyx_r);
     __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->view.ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 577, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = PyNumber_Multiply(__pyx_tuple__19, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 577, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Multiply(__pyx_tuple__16, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 577, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_r = __pyx_t_3;
@@ -15016,7 +14249,7 @@ static PyObject *__pyx_pf___pyx_memoryview___reduce_cython__(CYTHON_UNUSED struc
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -15072,7 +14305,7 @@ static PyObject *__pyx_pf___pyx_memoryview_2__setstate_cython__(CYTHON_UNUSED st
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__21, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__18, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -15429,9 +14662,9 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
         __Pyx_GOTREF(__pyx_t_7);
         { Py_ssize_t __pyx_temp;
           for (__pyx_temp=0; __pyx_temp < ((__pyx_v_ndim - __pyx_t_8) + 1); __pyx_temp++) {
-            __Pyx_INCREF(__pyx_slice__22);
-            __Pyx_GIVEREF(__pyx_slice__22);
-            PyList_SET_ITEM(__pyx_t_7, __pyx_temp, __pyx_slice__22);
+            __Pyx_INCREF(__pyx_slice__19);
+            __Pyx_GIVEREF(__pyx_slice__19);
+            PyList_SET_ITEM(__pyx_t_7, __pyx_temp, __pyx_slice__19);
           }
         }
         __pyx_t_9 = __Pyx_PyList_Extend(__pyx_v_result, __pyx_t_7); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(1, 682, __pyx_L1_error)
@@ -15464,7 +14697,7 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
  *         else:
  */
       /*else*/ {
-        __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_result, __pyx_slice__22); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(1, 685, __pyx_L1_error)
+        __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_result, __pyx_slice__19); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(1, 685, __pyx_L1_error)
       }
       __pyx_L7:;
 
@@ -15604,9 +14837,9 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
     __Pyx_GOTREF(__pyx_t_3);
     { Py_ssize_t __pyx_temp;
       for (__pyx_temp=0; __pyx_temp < __pyx_v_nslices; __pyx_temp++) {
-        __Pyx_INCREF(__pyx_slice__22);
-        __Pyx_GIVEREF(__pyx_slice__22);
-        PyList_SET_ITEM(__pyx_t_3, __pyx_temp, __pyx_slice__22);
+        __Pyx_INCREF(__pyx_slice__19);
+        __Pyx_GIVEREF(__pyx_slice__19);
+        PyList_SET_ITEM(__pyx_t_3, __pyx_temp, __pyx_slice__19);
       }
     }
     __pyx_t_9 = __Pyx_PyList_Extend(__pyx_v_result, __pyx_t_3); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(1, 696, __pyx_L1_error)
@@ -15733,7 +14966,7 @@ static PyObject *assert_direct_dimensions(Py_ssize_t *__pyx_v_suboffsets, int __
  * 
  * 
  */
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 703, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 703, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_Raise(__pyx_t_5, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -17917,7 +17150,7 @@ static PyObject *__pyx_pf___pyx_memoryviewslice___reduce_cython__(CYTHON_UNUSED 
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__21, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17973,7 +17206,7 @@ static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUS
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__25, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__22, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -22645,8 +21878,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_Cannot_index_with_type_s, __pyx_k_Cannot_index_with_type_s, sizeof(__pyx_k_Cannot_index_with_type_s), 0, 0, 1, 0},
   {&__pyx_n_s_Ellipsis, __pyx_k_Ellipsis, sizeof(__pyx_k_Ellipsis), 0, 0, 1, 1},
   {&__pyx_kp_s_Empty_shape_tuple_for_cython_arr, __pyx_k_Empty_shape_tuple_for_cython_arr, sizeof(__pyx_k_Empty_shape_tuple_for_cython_arr), 0, 0, 1, 0},
-  {&__pyx_kp_u_Format_string_allocated_too_shor, __pyx_k_Format_string_allocated_too_shor, sizeof(__pyx_k_Format_string_allocated_too_shor), 0, 1, 0, 0},
-  {&__pyx_kp_u_Format_string_allocated_too_shor_2, __pyx_k_Format_string_allocated_too_shor_2, sizeof(__pyx_k_Format_string_allocated_too_shor_2), 0, 1, 0, 0},
   {&__pyx_n_s_ImportError, __pyx_k_ImportError, sizeof(__pyx_k_ImportError), 0, 0, 1, 1},
   {&__pyx_kp_s_Incompatible_checksums_s_vs_0xb0, __pyx_k_Incompatible_checksums_s_vs_0xb0, sizeof(__pyx_k_Incompatible_checksums_s_vs_0xb0), 0, 0, 1, 0},
   {&__pyx_n_s_IndexError, __pyx_k_IndexError, sizeof(__pyx_k_IndexError), 0, 0, 1, 1},
@@ -22657,12 +21888,10 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_MemoryError, __pyx_k_MemoryError, sizeof(__pyx_k_MemoryError), 0, 0, 1, 1},
   {&__pyx_kp_s_MemoryView_of_r_at_0x_x, __pyx_k_MemoryView_of_r_at_0x_x, sizeof(__pyx_k_MemoryView_of_r_at_0x_x), 0, 0, 1, 0},
   {&__pyx_kp_s_MemoryView_of_r_object, __pyx_k_MemoryView_of_r_object, sizeof(__pyx_k_MemoryView_of_r_object), 0, 0, 1, 0},
-  {&__pyx_kp_u_Non_native_byte_order_not_suppor, __pyx_k_Non_native_byte_order_not_suppor, sizeof(__pyx_k_Non_native_byte_order_not_suppor), 0, 1, 0, 0},
   {&__pyx_n_b_O, __pyx_k_O, sizeof(__pyx_k_O), 0, 0, 0, 1},
   {&__pyx_kp_s_Out_of_bounds_on_buffer_access_a, __pyx_k_Out_of_bounds_on_buffer_access_a, sizeof(__pyx_k_Out_of_bounds_on_buffer_access_a), 0, 0, 1, 0},
   {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
   {&__pyx_n_s_Queue, __pyx_k_Queue, sizeof(__pyx_k_Queue), 0, 0, 1, 1},
-  {&__pyx_n_s_RuntimeError, __pyx_k_RuntimeError, sizeof(__pyx_k_RuntimeError), 0, 0, 1, 1},
   {&__pyx_n_s_StopIteration, __pyx_k_StopIteration, sizeof(__pyx_k_StopIteration), 0, 0, 1, 1},
   {&__pyx_n_s_Thread, __pyx_k_Thread, sizeof(__pyx_k_Thread), 0, 0, 1, 1},
   {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
@@ -22772,7 +22001,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_torch, __pyx_k_torch, sizeof(__pyx_k_torch), 0, 0, 1, 1},
   {&__pyx_kp_s_unable_to_allocate_array_data, __pyx_k_unable_to_allocate_array_data, sizeof(__pyx_k_unable_to_allocate_array_data), 0, 0, 1, 0},
   {&__pyx_kp_s_unable_to_allocate_shape_and_str, __pyx_k_unable_to_allocate_shape_and_str, sizeof(__pyx_k_unable_to_allocate_shape_and_str), 0, 0, 1, 0},
-  {&__pyx_kp_u_unknown_dtype_code_in_numpy_pxd, __pyx_k_unknown_dtype_code_in_numpy_pxd, sizeof(__pyx_k_unknown_dtype_code_in_numpy_pxd), 0, 1, 0, 0},
   {&__pyx_n_s_unpack, __pyx_k_unpack, sizeof(__pyx_k_unpack), 0, 0, 1, 1},
   {&__pyx_n_s_update, __pyx_k_update, sizeof(__pyx_k_update), 0, 0, 1, 1},
   {&__pyx_n_s_weights, __pyx_k_weights, sizeof(__pyx_k_weights), 0, 0, 1, 1},
@@ -22781,12 +22009,11 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {0, 0, 0, 0, 0, 0, 0}
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 99, __pyx_L1_error)
-  __pyx_builtin_StopIteration = __Pyx_GetBuiltinName(__pyx_n_s_StopIteration); if (!__pyx_builtin_StopIteration) __PYX_ERR(0, 148, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_builtin_StopIteration = __Pyx_GetBuiltinName(__pyx_n_s_StopIteration); if (!__pyx_builtin_StopIteration) __PYX_ERR(0, 143, __pyx_L1_error)
   __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(1, 2, __pyx_L1_error)
-  __pyx_builtin_RuntimeError = __Pyx_GetBuiltinName(__pyx_n_s_RuntimeError); if (!__pyx_builtin_RuntimeError) __PYX_ERR(2, 777, __pyx_L1_error)
-  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(2, 781, __pyx_L1_error)
-  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 959, __pyx_L1_error)
+  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 884, __pyx_L1_error)
+  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(1, 133, __pyx_L1_error)
   __pyx_builtin_MemoryError = __Pyx_GetBuiltinName(__pyx_n_s_MemoryError); if (!__pyx_builtin_MemoryError) __PYX_ERR(1, 148, __pyx_L1_error)
   __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(1, 151, __pyx_L1_error)
   __pyx_builtin_Ellipsis = __Pyx_GetBuiltinName(__pyx_n_s_Ellipsis); if (!__pyx_builtin_Ellipsis) __PYX_ERR(1, 404, __pyx_L1_error)
@@ -22820,60 +22047,27 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":777
- * 
- *         if (end - f) - <int>(new_offset - offset[0]) < 15:
- *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
- * 
- *         if ((child.byteorder == c'>' and little_endian) or
- */
-  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(2, 777, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__3);
-  __Pyx_GIVEREF(__pyx_tuple__3);
-
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":781
- *         if ((child.byteorder == c'>' and little_endian) or
- *             (child.byteorder == c'<' and not little_endian)):
- *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
- *             # One could encode it in the format string and have Cython
- *             # complain instead, BUT: < and > in format strings also imply
- */
-  __pyx_tuple__4 = PyTuple_Pack(1, __pyx_kp_u_Non_native_byte_order_not_suppor); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(2, 781, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__4);
-  __Pyx_GIVEREF(__pyx_tuple__4);
-
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":801
- *             t = child.type_num
- *             if end - f < 5:
- *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
- * 
- *             # Until ticket #99 is fixed, use integers to avoid warnings
- */
-  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor_2); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(2, 801, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__5);
-  __Pyx_GIVEREF(__pyx_tuple__5);
-
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":959
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":884
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(2, 959, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__6);
-  __Pyx_GIVEREF(__pyx_tuple__6);
+  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(2, 884, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__3);
+  __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "../../anaconda3/envs/MCF/lib/python3.6/site-packages/numpy/__init__.pxd":965
+  /* "../../anaconda3/envs/poincare_new/lib/python3.6/site-packages/numpy/__init__.pxd":890
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(2, 965, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__7);
-  __Pyx_GIVEREF(__pyx_tuple__7);
+  __pyx_tuple__4 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(2, 890, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__4);
+  __Pyx_GIVEREF(__pyx_tuple__4);
 
   /* "View.MemoryView":133
  * 
@@ -22882,9 +22076,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if itemsize <= 0:
  */
-  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_s_Empty_shape_tuple_for_cython_arr); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(1, 133, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__8);
-  __Pyx_GIVEREF(__pyx_tuple__8);
+  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_kp_s_Empty_shape_tuple_for_cython_arr); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(1, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__5);
+  __Pyx_GIVEREF(__pyx_tuple__5);
 
   /* "View.MemoryView":136
  * 
@@ -22893,9 +22087,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if not isinstance(format, bytes):
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_itemsize_0_for_cython_array); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(1, 136, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__9);
-  __Pyx_GIVEREF(__pyx_tuple__9);
+  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_s_itemsize_0_for_cython_array); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(1, 136, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__6);
+  __Pyx_GIVEREF(__pyx_tuple__6);
 
   /* "View.MemoryView":148
  * 
@@ -22904,9 +22098,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_shape_and_str); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(1, 148, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__10);
-  __Pyx_GIVEREF(__pyx_tuple__10);
+  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_shape_and_str); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(1, 148, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__7);
+  __Pyx_GIVEREF(__pyx_tuple__7);
 
   /* "View.MemoryView":176
  *             self.data = <char *>malloc(self.len)
@@ -22915,9 +22109,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *             if self.dtype_is_object:
  */
-  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_array_data); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(1, 176, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__11);
-  __Pyx_GIVEREF(__pyx_tuple__11);
+  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_array_data); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(1, 176, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__8);
+  __Pyx_GIVEREF(__pyx_tuple__8);
 
   /* "View.MemoryView":192
  *             bufmode = PyBUF_F_CONTIGUOUS | PyBUF_ANY_CONTIGUOUS
@@ -22926,9 +22120,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         info.buf = self.data
  *         info.len = self.len
  */
-  __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_s_Can_only_create_a_buffer_that_is); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(1, 192, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__12);
-  __Pyx_GIVEREF(__pyx_tuple__12);
+  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_Can_only_create_a_buffer_that_is); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(1, 192, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__9);
+  __Pyx_GIVEREF(__pyx_tuple__9);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -22936,18 +22130,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(1, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__13);
-  __Pyx_GIVEREF(__pyx_tuple__13);
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__10);
+  __Pyx_GIVEREF(__pyx_tuple__10);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(1, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__14);
-  __Pyx_GIVEREF(__pyx_tuple__14);
+  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__11);
+  __Pyx_GIVEREF(__pyx_tuple__11);
 
   /* "View.MemoryView":418
  *     def __setitem__(memoryview self, object index, object value):
@@ -22956,9 +22150,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         have_slices, index = _unellipsify(index, self.view.ndim)
  */
-  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_s_Cannot_assign_to_read_only_memor); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(1, 418, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__15);
-  __Pyx_GIVEREF(__pyx_tuple__15);
+  __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_s_Cannot_assign_to_read_only_memor); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(1, 418, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__12);
+  __Pyx_GIVEREF(__pyx_tuple__12);
 
   /* "View.MemoryView":495
  *             result = struct.unpack(self.view.format, bytesitem)
@@ -22967,9 +22161,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         else:
  *             if len(self.view.format) == 1:
  */
-  __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_s_Unable_to_convert_item_to_object); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(1, 495, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__16);
-  __Pyx_GIVEREF(__pyx_tuple__16);
+  __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_s_Unable_to_convert_item_to_object); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(1, 495, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__13);
+  __Pyx_GIVEREF(__pyx_tuple__13);
 
   /* "View.MemoryView":520
  *     def __getbuffer__(self, Py_buffer *info, int flags):
@@ -22978,9 +22172,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if flags & PyBUF_ND:
  */
-  __pyx_tuple__17 = PyTuple_Pack(1, __pyx_kp_s_Cannot_create_writable_memory_vi); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(1, 520, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__17);
-  __Pyx_GIVEREF(__pyx_tuple__17);
+  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_s_Cannot_create_writable_memory_vi); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(1, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__14);
+  __Pyx_GIVEREF(__pyx_tuple__14);
 
   /* "View.MemoryView":570
  *         if self.view.strides == NULL:
@@ -22989,9 +22183,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         return tuple([stride for stride in self.view.strides[:self.view.ndim]])
  */
-  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_s_Buffer_view_does_not_expose_stri); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(1, 570, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__18);
-  __Pyx_GIVEREF(__pyx_tuple__18);
+  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_s_Buffer_view_does_not_expose_stri); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(1, 570, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__15);
+  __Pyx_GIVEREF(__pyx_tuple__15);
 
   /* "View.MemoryView":577
  *     def suboffsets(self):
@@ -23000,12 +22194,12 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         return tuple([suboffset for suboffset in self.view.suboffsets[:self.view.ndim]])
  */
-  __pyx_tuple__19 = PyTuple_New(1); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(1, 577, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__19);
+  __pyx_tuple__16 = PyTuple_New(1); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(1, 577, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_INCREF(__pyx_int_neg_1);
   __Pyx_GIVEREF(__pyx_int_neg_1);
-  PyTuple_SET_ITEM(__pyx_tuple__19, 0, __pyx_int_neg_1);
-  __Pyx_GIVEREF(__pyx_tuple__19);
+  PyTuple_SET_ITEM(__pyx_tuple__16, 0, __pyx_int_neg_1);
+  __Pyx_GIVEREF(__pyx_tuple__16);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -23013,18 +22207,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__20 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(1, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__20);
-  __Pyx_GIVEREF(__pyx_tuple__20);
+  __pyx_tuple__17 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__17);
+  __Pyx_GIVEREF(__pyx_tuple__17);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__21 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(1, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__21);
-  __Pyx_GIVEREF(__pyx_tuple__21);
+  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__18);
+  __Pyx_GIVEREF(__pyx_tuple__18);
 
   /* "View.MemoryView":682
  *         if item is Ellipsis:
@@ -23033,9 +22227,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 seen_ellipsis = True
  *             else:
  */
-  __pyx_slice__22 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__22)) __PYX_ERR(1, 682, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__22);
-  __Pyx_GIVEREF(__pyx_slice__22);
+  __pyx_slice__19 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__19)) __PYX_ERR(1, 682, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__19);
+  __Pyx_GIVEREF(__pyx_slice__19);
 
   /* "View.MemoryView":703
  *     for suboffset in suboffsets[:ndim]:
@@ -23044,9 +22238,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_s_Indirect_dimensions_not_supporte); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(1, 703, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__23);
-  __Pyx_GIVEREF(__pyx_tuple__23);
+  __pyx_tuple__20 = PyTuple_Pack(1, __pyx_kp_s_Indirect_dimensions_not_supporte); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(1, 703, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__20);
+  __Pyx_GIVEREF(__pyx_tuple__20);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -23054,18 +22248,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__24 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(1, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__24);
-  __Pyx_GIVEREF(__pyx_tuple__24);
+  __pyx_tuple__21 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__21);
+  __Pyx_GIVEREF(__pyx_tuple__21);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__25 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(1, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__25);
-  __Pyx_GIVEREF(__pyx_tuple__25);
+  __pyx_tuple__22 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__22);
+  __Pyx_GIVEREF(__pyx_tuple__22);
 
   /* "View.MemoryView":286
  *         return self.name
@@ -23074,9 +22268,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_tuple__26 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(1, 286, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__26);
-  __Pyx_GIVEREF(__pyx_tuple__26);
+  __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(1, 286, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__23);
+  __Pyx_GIVEREF(__pyx_tuple__23);
 
   /* "View.MemoryView":287
  * 
@@ -23085,9 +22279,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_tuple__27 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(1, 287, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__27);
-  __Pyx_GIVEREF(__pyx_tuple__27);
+  __pyx_tuple__24 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(1, 287, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__24);
+  __Pyx_GIVEREF(__pyx_tuple__24);
 
   /* "View.MemoryView":288
  * cdef generic = Enum("<strided and direct or indirect>")
@@ -23096,9 +22290,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__28 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(1, 288, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__28);
-  __Pyx_GIVEREF(__pyx_tuple__28);
+  __pyx_tuple__25 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(1, 288, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__25);
+  __Pyx_GIVEREF(__pyx_tuple__25);
 
   /* "View.MemoryView":291
  * 
@@ -23107,9 +22301,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_tuple__29 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(1, 291, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__29);
-  __Pyx_GIVEREF(__pyx_tuple__29);
+  __pyx_tuple__26 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(1, 291, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__26);
+  __Pyx_GIVEREF(__pyx_tuple__26);
 
   /* "View.MemoryView":292
  * 
@@ -23118,19 +22312,19 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__30 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(1, 292, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__30);
-  __Pyx_GIVEREF(__pyx_tuple__30);
+  __pyx_tuple__27 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(1, 292, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__27);
+  __Pyx_GIVEREF(__pyx_tuple__27);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_Enum(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_tuple__31 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(1, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__31);
-  __Pyx_GIVEREF(__pyx_tuple__31);
-  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_tuple__28 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__28);
+  __Pyx_GIVEREF(__pyx_tuple__28);
+  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -23202,16 +22396,16 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtable_4hype_24adjacency_matrix_dataset_AdjacencyDataset.binary_search = (long (*)(struct __pyx_obj_4hype_24adjacency_matrix_dataset_AdjacencyDataset *, long, __Pyx_memviewslice, long, long, bool))__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset_binary_search;
   __pyx_vtable_4hype_24adjacency_matrix_dataset_AdjacencyDataset._getbatch = (long (*)(struct __pyx_obj_4hype_24adjacency_matrix_dataset_AdjacencyDataset *, long, __Pyx_memviewslice, unsigned long *))__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__getbatch;
   __pyx_vtable_4hype_24adjacency_matrix_dataset_AdjacencyDataset._nnegatives = (int (*)(struct __pyx_obj_4hype_24adjacency_matrix_dataset_AdjacencyDataset *))__pyx_f_4hype_24adjacency_matrix_dataset_16AdjacencyDataset__nnegatives;
-  if (PyType_Ready(&__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset.tp_dictoffset && __pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (__Pyx_SetVtable(__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset.tp_dict, __pyx_vtabptr_4hype_24adjacency_matrix_dataset_AdjacencyDataset) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_AdjacencyDataset, (PyObject *)&__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
-  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset.tp_dict, __pyx_vtabptr_4hype_24adjacency_matrix_dataset_AdjacencyDataset) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_AdjacencyDataset, (PyObject *)&__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
   __pyx_ptype_4hype_24adjacency_matrix_dataset_AdjacencyDataset = &__pyx_type_4hype_24adjacency_matrix_dataset_AdjacencyDataset;
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
@@ -23290,18 +22484,18 @@ static int __Pyx_modinit_type_import_code(void) {
   __Pyx_ImportType_CheckSize_Warn);
    if (!__pyx_ptype_7cpython_4type_type) __PYX_ERR(3, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 207, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 199, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_ptype_5numpy_dtype = __Pyx_ImportType(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 207, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 199, __pyx_L1_error)
   __pyx_ptype_5numpy_flatiter = __Pyx_ImportType(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 230, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 222, __pyx_L1_error)
   __pyx_ptype_5numpy_broadcast = __Pyx_ImportType(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 234, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 226, __pyx_L1_error)
   __pyx_ptype_5numpy_ndarray = __Pyx_ImportType(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 246, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 238, __pyx_L1_error)
   __pyx_ptype_5numpy_ufunc = __Pyx_ImportType(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 839, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 764, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_RefNannyFinishContext();
   return 0;
@@ -23530,52 +22724,52 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "hype/adjacency_matrix_dataset.pyx":15
+  /* "hype/adjacency_matrix_dataset.pyx":10
  * cimport cython
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
  * import torch
  * from libcpp cimport bool
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 15, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 15, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":16
+  /* "hype/adjacency_matrix_dataset.pyx":11
  * 
  * import numpy as np
  * import torch             # <<<<<<<<<<<<<<
  * from libcpp cimport bool
  * from libcpp.unordered_set cimport unordered_set
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_torch, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 16, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_torch, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_torch, __pyx_t_1) < 0) __PYX_ERR(0, 16, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_torch, __pyx_t_1) < 0) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":21
+  /* "hype/adjacency_matrix_dataset.pyx":16
  * from libc.math cimport pow
  * from libc.stdlib cimport RAND_MAX
  * import threading             # <<<<<<<<<<<<<<
  * import queue
  * 
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_threading, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 21, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_threading, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_threading, __pyx_t_1) < 0) __PYX_ERR(0, 21, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_threading, __pyx_t_1) < 0) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "hype/adjacency_matrix_dataset.pyx":22
+  /* "hype/adjacency_matrix_dataset.pyx":17
  * from libc.stdlib cimport RAND_MAX
  * import threading
  * import queue             # <<<<<<<<<<<<<<
  * 
  * # Thread safe random number generation.  libcpp doesn't expose rand_r...
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_queue, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 22, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_queue, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_queue, __pyx_t_1) < 0) __PYX_ERR(0, 22, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_queue, __pyx_t_1) < 0) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "hype/adjacency_matrix_dataset.pyx":1
@@ -23608,7 +22802,7 @@ if (!__Pyx_RefNanny) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__26, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 286, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(generic);
   __Pyx_DECREF_SET(generic, __pyx_t_1);
@@ -23622,7 +22816,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__27, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 287, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 287, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(strided);
   __Pyx_DECREF_SET(strided, __pyx_t_1);
@@ -23636,7 +22830,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__28, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 288, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__25, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(indirect);
   __Pyx_DECREF_SET(indirect, __pyx_t_1);
@@ -23650,7 +22844,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__29, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 291, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__26, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(contiguous);
   __Pyx_DECREF_SET(contiguous, __pyx_t_1);
@@ -23664,7 +22858,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__30, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 292, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__27, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 292, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(indirect_contiguous);
   __Pyx_DECREF_SET(indirect_contiguous, __pyx_t_1);
@@ -25554,24 +24748,6 @@ static PyObject *__Pyx_PyObject_GetItem(PyObject *obj, PyObject* key) {
 #endif
 }
 
-/* RaiseTooManyValuesToUnpack */
-  static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected) {
-    PyErr_Format(PyExc_ValueError,
-                 "too many values to unpack (expected %" CYTHON_FORMAT_SSIZE_T "d)", expected);
-}
-
-/* RaiseNeedMoreValuesToUnpack */
-  static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index) {
-    PyErr_Format(PyExc_ValueError,
-                 "need more than %" CYTHON_FORMAT_SSIZE_T "d value%.1s to unpack",
-                 index, (index == 1) ? "" : "s");
-}
-
-/* RaiseNoneIterError */
-  static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void) {
-    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-}
-
 /* GetTopmostException */
   #if CYTHON_USE_EXC_INFO_STACK
 static _PyErr_StackItem *
@@ -25956,6 +25132,24 @@ return_ne:
 static CYTHON_INLINE PyObject *__Pyx_GetAttr3(PyObject *o, PyObject *n, PyObject *d) {
     PyObject *r = __Pyx_GetAttr(o, n);
     return (likely(r)) ? r : __Pyx_GetAttr3Default(d);
+}
+
+/* RaiseTooManyValuesToUnpack */
+  static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected) {
+    PyErr_Format(PyExc_ValueError,
+                 "too many values to unpack (expected %" CYTHON_FORMAT_SSIZE_T "d)", expected);
+}
+
+/* RaiseNeedMoreValuesToUnpack */
+  static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index) {
+    PyErr_Format(PyExc_ValueError,
+                 "need more than %" CYTHON_FORMAT_SSIZE_T "d value%.1s to unpack",
+                 index, (index == 1) ? "" : "s");
+}
+
+/* RaiseNoneIterError */
+  static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void) {
+    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
 }
 
 /* SwapException */
@@ -27282,37 +26476,6 @@ bad:
         }
     #endif
 #endif
-
-/* CIntToPy */
-  static CYTHON_INLINE PyObject* __Pyx_PyInt_From_enum__NPY_TYPES(enum NPY_TYPES value) {
-    const enum NPY_TYPES neg_one = (enum NPY_TYPES) ((enum NPY_TYPES) 0 - (enum NPY_TYPES) 1), const_zero = (enum NPY_TYPES) 0;
-    const int is_unsigned = neg_one > const_zero;
-    if (is_unsigned) {
-        if (sizeof(enum NPY_TYPES) < sizeof(long)) {
-            return PyInt_FromLong((long) value);
-        } else if (sizeof(enum NPY_TYPES) <= sizeof(unsigned long)) {
-            return PyLong_FromUnsignedLong((unsigned long) value);
-#ifdef HAVE_LONG_LONG
-        } else if (sizeof(enum NPY_TYPES) <= sizeof(unsigned PY_LONG_LONG)) {
-            return PyLong_FromUnsignedLongLong((unsigned PY_LONG_LONG) value);
-#endif
-        }
-    } else {
-        if (sizeof(enum NPY_TYPES) <= sizeof(long)) {
-            return PyInt_FromLong((long) value);
-#ifdef HAVE_LONG_LONG
-        } else if (sizeof(enum NPY_TYPES) <= sizeof(PY_LONG_LONG)) {
-            return PyLong_FromLongLong((PY_LONG_LONG) value);
-#endif
-        }
-    }
-    {
-        int one = 1; int little = (int)*(unsigned char *)&one;
-        unsigned char *bytes = (unsigned char *)&value;
-        return _PyLong_FromByteArray(bytes, sizeof(enum NPY_TYPES),
-                                     little, !is_unsigned);
-    }
-}
 
 /* MemviewSliceCopyTemplate */
   static __Pyx_memviewslice
